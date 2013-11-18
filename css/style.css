@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'museo_sans500';
+    src: url('museosans-500-webfont.eot');
+    src: url('museosans-500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museosans-500-webfont.woff') format('woff'),
+         url('museosans-500-webfont.ttf') format('truetype'),
+         url('museosans-500-webfont.svg#museo_sans500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'museo_sans500_italic';
+    src: url('museosans-500italic-webfont.eot');
+    src: url('museosans-500italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museosans-500italic-webfont.woff') format('woff'),
+         url('museosans-500italic-webfont.ttf') format('truetype'),
+         url('museosans-500italic-webfont.svg#museo_sans500_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'museo_sans700';
+    src: url('museosans-700-webfont.eot');
+    src: url('museosans-700-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museosans-700-webfont.woff') format('woff'),
+         url('museosans-700-webfont.ttf') format('truetype'),
+         url('museosans-700-webfont.svg#museo_sans700') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'museo_sans700_italic';
+    src: url('museosans-700italic-webfont.eot');
+    src: url('museosans-700italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museosans-700italic-webfont.woff') format('woff'),
+         url('museosans-700italic-webfont.ttf') format('truetype'),
+         url('museosans-700italic-webfont.svg#museo_sans700_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+	font-family: 'museo_sans500';
+}
+
+.slides section {
+	box-sizing: border-box;
+	padding: 20% 0;
+}
+
+h1.presentation-frame {
+	background: url(../img/moldura.png);
+	background: url(../img/moldura.png);
+	width: 365px;
+	height: 298px;
+	box-sizing: border-box;
+	padding: 70px;
+	font-size: 32px;
+	line-height: 32px;
+	color: #5d6367;
+	text-align: left;
+	font-family: 'museo_sans700';
+	margin: 0 auto 4%;
+}
+
+h1.presentation-frame small {
+	color: #e5679f;
+	font-size: 24px;
+	letter-spacing: -0.35;
+	font-weight: 500;
+	font-family: 'museo_sans500';
+	margin: 10px 0 0;
+}
+
+p.presentation-text {
+	font-size: 20px;
+	line-height: 34px;
+	color: #000;
+	color: rgba(0,0,0,0.90);
+	padding: 0 25%;
+	text-align: left;
+	margin: 0 0 4%;
+}
+
+h2.dark-h2 {
+	font-size: 60px;
+	color: #000;
+	color: rgba(0,0,0,0.85);
+}
+
+div.we-want {
+	width: 25%;
+	display: inline-block;
+	text-align: left;
+	margin: 10% 12% 0;
+}
+
+.we-want h3 {
+	font-family: 'museo_sans700';
+	font-size: 36px;
+	color: #fff;
+}
+
+.we-want p {
+	font-size: 20px;
+	line-height: 30px;
+	color: #000;
+	color: rgba(0,0,0,0.85);
+	margin: 0 0 20%;
+}
+
+div.we-done {
+	text-align: left;
+	margin: 10% 0 0;
+}
+
+p.we-done-presentation {
+	font-size: 20px;
+	line-height: 30px;
+	color: #000;
+	color: rgba(0,0,0,0.85);
+	float: left;
+	width: 33%;
+	vertical-align: top;
+	margin: 0 0 0 10%;
+}
+
+p.we-done-data {
+	font-family: 'museo_sans700';
+	color: #fff;
+	font-size: 18px;
+	line-height: 24px;
+	display: inline-block;
+	width: 44%;
+	margin: 0 10% 4% 3%;
+}
+
+.we-done-data strong {
+	float: left;
+	width: 41%;
+	line-height: 100%;
+	text-align: right;
+	margin: -2% 5% 0 0;
+}
+
+p.question {
+	font-size: 20px;
+	line-height: 30px;
+	color: #000;
+	color: rgba(0,0,0,0.85);
+	width: 57%;
+	margin: 6% auto 0;
+	text-align: left;
+}
+
+strong.we-done-numbers {
+	font-size: 67px;
+}
+
+strong.we-done-duration {
+	font-size: 30px;
+	margin: 0 5% 0 0;
+}
+
+
+h2.light-h2 {
+	color: #fff;
+	font-size: 60px;
+}
+
+p.subtitle {
+	font-size: 24px;
+	color: #000;
+	color: rgba(0,0,0,0.85);
+	padding: 0 15%;
+}
+
+figure.result-group {
+	display: inline-block;
+	width: 15%;
+	margin: 6% 8% 0 5%;
+}
+
+figure.result-group.last {
+	margin: 0;
+}
+
+.result-group figcaption {
+	font-size: 22px;
+	color: #fff;
+	margin: 10% 0 0;
+}
+
+.result-group-page h3 {
+	font-size: 36px;
+	color: #fff;
+	padding: 2% 0 0;
+}
+
+.result-group-page p {
+	font-size: 24px;
+	line-height: 36px;
+	color: #000;
+	color: rgba(0,0,0,0.85);
+	padding: 5% 10% 0;
+}
+
+/* navigation */
+a.arrow-down {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	background: url(../img/seta-preta.png);
+	height: 23px;
+	width: 50px;
+	text-indent: -9999px;
+	margin: 0 0 0 -25px;
+}
+
+a.arrow-up {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	background: url(../img/seta-preta.png);
+	height: 23px;
+	width: 50px;
+	text-indent: -9999px;
+	margin: 0 0 0 -25px;
+}
+
+a.arrow-left {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	background: url(../img/seta-preta.png);
+	height: 23px;
+	width: 50px;
+	text-indent: -9999px;
+	margin: 0 0 0 -25px;
+}
+
+a.arrow-right {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	background: url(../img/seta-preta.png);
+	height: 23px;
+	width: 50px;
+	text-indent: -9999px;
+	margin: 0 0 0 -25px;
+}
+
+.share {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+
+.stamp {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
