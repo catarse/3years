@@ -100,7 +100,8 @@ div.we-want {
 	width: 25%;
 	display: inline-block;
 	text-align: left;
-	margin: 10% 12% 0;
+	vertical-align: top;
+	margin: 6% 2% 0;
 }
 
 .we-want h3 {
@@ -130,7 +131,7 @@ p.we-done-presentation {
 	float: left;
 	width: 33%;
 	vertical-align: top;
-	margin: 0 0 0 10%;
+	margin: 0 0 0 15%;
 }
 
 p.we-done-data {
@@ -140,7 +141,7 @@ p.we-done-data {
 	line-height: 24px;
 	display: inline-block;
 	width: 44%;
-	margin: 0 10% 4% 3%;
+	margin: 0 8% 2% 0;
 }
 
 .we-done-data strong {
@@ -161,6 +162,20 @@ p.question {
 	text-align: left;
 }
 
+a.question-button {
+	display: inline-block;
+	width: 15%;
+	height: 60px;
+	background: #000;
+	background: rgba(0,0,0,0.60);
+	margin: 5% 2% 0;
+	line-height: 60px;
+	font-size: 40px;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 4px;
+}
+
 strong.we-done-numbers {
 	font-size: 67px;
 }
@@ -176,6 +191,12 @@ h2.light-h2 {
 	font-size: 60px;
 }
 
+h2.green-h2 {
+	color: #78c253;
+	font-size: 52px;
+	margin: 0 0 3%;
+}
+
 p.subtitle {
 	font-size: 24px;
 	color: #000;
@@ -183,10 +204,22 @@ p.subtitle {
 	padding: 0 15%;
 }
 
+p.big-subtitle {
+	font-size: 24px;
+	color: #000;
+	color: rgba(0,0,0,0.85);
+}
+
+div.chapters {
+	width: 80%;
+	margin: 6% 10% 0;
+}
+
 figure.result-group {
 	display: inline-block;
-	width: 15%;
-	margin: 6% 8% 0 5%;
+	width: 24%;
+	box-sizing: border-box;
+	padding: 0 3%;
 }
 
 figure.result-group.last {
@@ -214,58 +247,79 @@ figure.result-group.last {
 }
 
 /* navigation */
-a.arrow-down {
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	background: url(../img/seta-preta.png);
-	height: 23px;
-	width: 50px;
-	text-indent: -9999px;
-	margin: 0 0 0 -25px;
-}
-
-a.arrow-up {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	background: url(../img/seta-preta.png);
-	height: 23px;
-	width: 50px;
-	text-indent: -9999px;
-	margin: 0 0 0 -25px;
-}
-
 a.arrow-left {
-	position: absolute;
+	position: fixed;
 	top: 50%;
-	left: 0;
-	background: url(../img/seta-preta.png);
-	height: 23px;
-	width: 50px;
+	left: 20px;
+	background: url(../img/seta-preta-left.png);
+	height: 50px;
+	width: 23px;
 	text-indent: -9999px;
-	margin: 0 0 0 -25px;
+	margin: -25px 0 0;
+}
+
+a.arrow-left:hover {
+	background: url(../img/seta-verde-left.png);
+	height: 60px;
+	width: 28px;
+	margin: -30px 0 0;
 }
 
 a.arrow-right {
-	position: absolute;
+	position: fixed;
 	top: 50%;
-	right: 0;
-	background: url(../img/seta-preta.png);
-	height: 23px;
-	width: 50px;
+	right: 20px;
+	background: url(../img/seta-preta-right.png);
+	height: 50px;
+	width: 23px;
 	text-indent: -9999px;
-	margin: 0 0 0 -25px;
+	margin: -25px 0 0;
 }
 
-.share {
-	position: absolute;
+a.arrow-right:hover {
+	background: url(../img/seta-verde-right.png);
+	height: 60px;
+	width: 28px;
+	margin: -30px 0 0;
+}
+
+
+/* fixed */
+.reveal .share {
+	position: fixed;
 	right: 20px;
 	bottom: 20px;
+	width: 110px;
+	height: 110px;
+	z-index: 30;
 }
 
-.stamp {
+.share p {
 	position: absolute;
+	bottom: 0;
+}
+
+.share ul {
+	display: none;
+}
+
+.share:hover ul {
+	display: block;
+	background: #fff;
+	border: 1px solid #000;
+	padding: 10px;
+}
+
+.share li {
+	list-style: none
+}
+
+.reveal .stamp {
+	position: fixed;
 	left: 20px;
 	bottom: 20px;
+	width: 50px;
+	height: 50px;
+	z-index: 30;
+	background: url(../img/seta-verde-right.png);
 }
