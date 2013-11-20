@@ -84,16 +84,16 @@ p.presentation-text {
 	font-size: 20px;
 	line-height: 34px;
 	color: #000;
-	color: rgba(0,0,0,0.90);
+	color: rgba(0,0,0,0.75);
 	padding: 0 25%;
 	text-align: left;
-	margin: 0 0 4%;
+	margin: 0 0 3%;
 }
 
 h2.dark-h2 {
 	font-size: 60px;
 	color: #000;
-	color: rgba(0,0,0,0.85);
+	color: rgba(0,0,0,0.65);
 }
 
 div.we-want {
@@ -101,7 +101,7 @@ div.we-want {
 	display: inline-block;
 	text-align: left;
 	vertical-align: top;
-	margin: 6% 2% 0;
+	margin: 6% 5% 0;
 }
 
 .we-want h3 {
@@ -114,8 +114,8 @@ div.we-want {
 	font-size: 20px;
 	line-height: 30px;
 	color: #000;
-	color: rgba(0,0,0,0.85);
-	margin: 0 0 20%;
+	color: rgba(0,0,0,0.75);
+	margin: 5% 0 20%;
 }
 
 div.we-done {
@@ -127,21 +127,21 @@ p.we-done-presentation {
 	font-size: 20px;
 	line-height: 30px;
 	color: #000;
-	color: rgba(0,0,0,0.85);
+	color: rgba(0,0,0,0.75);
 	float: left;
-	width: 33%;
+	width: 25%;
 	vertical-align: top;
-	margin: 0 0 0 15%;
+	margin: 0 0 0 18%;
 }
 
 p.we-done-data {
-	font-family: 'museo_sans700';
+	font-family: 'museo_sans500';
 	color: #fff;
 	font-size: 18px;
 	line-height: 24px;
 	display: inline-block;
 	width: 44%;
-	margin: 0 8% 2% 0;
+	margin: 0 12% 3% 0;
 }
 
 .we-done-data strong {
@@ -156,7 +156,7 @@ p.question {
 	font-size: 20px;
 	line-height: 30px;
 	color: #000;
-	color: rgba(0,0,0,0.85);
+	color: rgba(0,0,0,0.75);
 	width: 57%;
 	margin: 6% auto 0;
 	text-align: left;
@@ -194,14 +194,15 @@ h2.light-h2 {
 h2.green-h2 {
 	color: #78c253;
 	font-size: 52px;
-	margin: 0 0 3%;
+	margin: 0 0 2%;
 }
 
 p.subtitle {
+	font-weight: 500;
 	font-size: 24px;
 	color: #000;
-	color: rgba(0,0,0,0.85);
-	padding: 0 15%;
+	color: rgba(0,0,0,0.75);
+	padding: 1% 20%;
 }
 
 p.big-subtitle {
@@ -242,8 +243,80 @@ figure.result-group.last {
 	font-size: 24px;
 	line-height: 36px;
 	color: #000;
-	color: rgba(0,0,0,0.85);
-	padding: 5% 10% 0;
+	color: rgba(0,0,0,0.75);
+	padding: 4% 20% 0;
+}
+
+/*
+	11
+*/
+
+p.final-text {
+	font-size: 20px;
+	line-height: 34px;
+	color: #000;
+	color: rgba(0,0,0,0.90);
+	padding: 0 18%;
+	text-align: left;
+	margin: 0 0 3%;
+}
+
+hr {
+	width: 64%;
+	margin: 0 auto 1%;
+}
+
+p.back-project {
+	background: url(../img/coracao.png) top left no-repeat;
+	padding: 0 0 0 20px;
+	font-size: 18px;
+	margin: 0 28%;
+	line-height: 32px;
+}
+
+
+.back-project a {
+	color: #73c261;
+}
+
+/* Mailchimp */
+#mc_embed_signup {
+	font-size: 18px;
+	display: inline-block;
+	margin: 0 auto 3%;
+	width: 40%;
+	position: relative;
+	border: 1px solid #aaa;
+	height: 46px;
+	border-radius: 5px;
+}
+
+#mce-EMAIL {
+	font-size: 18px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70%;
+	padding: 12px;
+	color: #888;
+	border: none;
+	border-radius: 3px 0 0 3px;
+	outline: none;
+}
+
+#mc-embedded-subscribe {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #73c261;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0 3px 3px 0;
+	height: 46px;
+	width: 27%;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
 }
 
 /* navigation */
@@ -259,7 +332,7 @@ a.arrow-left {
 }
 
 a.arrow-left:hover {
-	background: url(../img/seta-verde-left.png);
+	background: url(../img/seta-preta-left-big.png);
 	height: 60px;
 	width: 28px;
 	margin: -30px 0 0;
@@ -277,7 +350,7 @@ a.arrow-right {
 }
 
 a.arrow-right:hover {
-	background: url(../img/seta-verde-right.png);
+	background: url(../img/seta-preta-right-big.png);
 	height: 60px;
 	width: 28px;
 	margin: -30px 0 0;
@@ -289,7 +362,7 @@ a.arrow-right:hover {
 	position: fixed;
 	right: 20px;
 	bottom: 20px;
-	width: 110px;
+	width: 160px;
 	height: 110px;
 	z-index: 30;
 }
@@ -297,6 +370,12 @@ a.arrow-right:hover {
 .share p {
 	position: absolute;
 	bottom: 0;
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	font-size: 12px;
+	background: url(../img/comp-rodape.png) top right no-repeat;
+	padding-right: 25px;
+	line-height: 16px;
 }
 
 .share ul {
@@ -319,7 +398,11 @@ a.arrow-right:hover {
 	left: 20px;
 	bottom: 20px;
 	width: 50px;
-	height: 50px;
+	height: 24px;
 	z-index: 30;
-	background: url(../img/seta-verde-right.png);
+	background: url(../img/moldura-menu.png) no-repeat;
+	padding: 8px 0 0 45px;
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	font-size: 16px;
 }
