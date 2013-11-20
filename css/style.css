@@ -52,7 +52,9 @@ body {
 }
 
 .slides section {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 	padding: 20% 0;
 }
 
@@ -61,7 +63,9 @@ h1.presentation-frame {
 	background: url(../img/moldura.png);
 	width: 365px;
 	height: 298px;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 	padding: 70px;
 	font-size: 32px;
 	line-height: 32px;
@@ -219,7 +223,9 @@ div.chapters {
 figure.result-group {
 	display: inline-block;
 	width: 24%;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 	padding: 0 3%;
 }
 
