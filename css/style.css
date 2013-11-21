@@ -426,9 +426,13 @@ a.arrow-right:hover {
 	z-index: 30;
 	background: url(../img/moldura-menu.png) no-repeat;
 	padding: 8px 0 0 45px;
+}
+
+.reveal .stamp a {
 	color: #000;
 	color: rgba(0,0,0,0.75);
 	font-size: 16px;
+	text-decoration: none;
 }
 
 /*
