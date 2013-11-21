@@ -206,7 +206,7 @@ p.subtitle {
 	font-size: 24px;
 	color: #000;
 	color: rgba(0,0,0,0.75);
-	padding: 1% 20%;
+	padding: 1% 19%;
 }
 
 p.big-subtitle {
@@ -250,7 +250,7 @@ figure.result-group.last {
 	line-height: 36px;
 	color: #000;
 	color: rgba(0,0,0,0.75);
-	padding: 4% 20% 0;
+	padding: 4% 18% 0;
 }
 
 /*
@@ -355,6 +355,20 @@ a.arrow-right {
 	margin: -25px 0 0;
 }
 
+a.first-arrow {
+	font-family: 'museo_sans700';
+	font-size: 18px;
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	text-indent: -120px;
+	text-decoration: none;
+	line-height: 50px;
+}
+
+a.first-arrow:hover {
+	line-height: 62px;
+}
+
 a.arrow-right:hover {
 	background: url(../img/seta-preta-right-big.png);
 	height: 60px;
@@ -386,17 +400,21 @@ a.arrow-right:hover {
 
 .share ul {
 	display: none;
+	background: #fff;
+	background: rgba(255,255,255,0.70);
+	border: 1px solid #000;
+	border: 1px solid rgba(0,0,0,0.75);
+	padding: 10px 0 10px 10px;
+	border-radius: 5px;
 }
 
 .share:hover ul {
 	display: block;
-	background: #fff;
-	border: 1px solid #000;
-	padding: 10px;
 }
 
 .share li {
-	list-style: none
+	list-style: none;
+	margin: 0 0 6px;
 }
 
 .reveal .stamp {
@@ -412,3 +430,18 @@ a.arrow-right:hover {
 	color: rgba(0,0,0,0.75);
 	font-size: 16px;
 }
+
+/*
+	backgrounds
+*/
+.bg-eeeeee {
+	/* fallback */
+  background-color: #eeeeee;
+
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#eeeeee));
+  background: -webkit-radial-gradient(circle, #1a82f7, #eeeeee);
+  background: -moz-radial-gradient(circle, #1a82f7, #eeeeee);
+  background: -ms-radial-gradient(circle, #1a82f7, #eeeeee);
+}
+
+
