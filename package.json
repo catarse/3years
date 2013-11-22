@@ -1,0 +1,24 @@
+{
+  "name": "3years",
+  "version": "1.0.0",
+  "description": "A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://lab.hakim.se/reveal-js/).",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/catarse/3years.git"
+  },
+  "author": "Pedro Marins",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/catarse/3years/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  }
+}
