@@ -111,7 +111,7 @@ div.we-want {
 .we-want h3 {
 	font-family: 'museo_sans700';
 	font-size: 36px;
-	color: #fff;
+	color: #78C253;
 }
 
 .we-want p {
@@ -140,7 +140,7 @@ p.we-done-presentation {
 
 p.we-done-data {
 	font-family: 'museo_sans500';
-	color: #fff;
+	color: #78C253;
 	font-size: 18px;
 	line-height: 24px;
 	display: inline-block;
@@ -252,6 +252,265 @@ figure.result-group.last {
 	color: rgba(0,0,0,0.75);
 	padding: 4% 18% 0;
 }
+
+
+/*
+	gender
+*/
+#gender {
+	width: 66%;
+	margin: 0 16% 0 18%;
+	text-align: left;
+}
+
+#gender header {
+	vertical-align: middle;
+	border-bottom: 1px solid #fff;
+	margin: 0 3% 4% 0;
+	padding: 0 0 4%;
+}
+
+#gender-title {
+	display: inline-block;
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	font-size: 28px;
+	width: 38%;
+}
+
+#gender-title img {
+	margin: -6px 10px 0 0;
+	vertical-align: middle;
+}
+
+p.gender-data {
+	display: inline-block;
+	padding: 0;
+	font-size: 34px;
+	width: 30%;
+}
+
+p.gender-data img {
+	vertical-align: middle;
+	margin: 0 10% 0 0;
+}
+
+div.gender-table {
+	display: inline-block;
+	width: 46%;
+	vertical-align: top;
+}
+
+.gender-table:last-child {
+	margin: 0 0 0 7%;
+}
+
+.gender-table h4 {
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	font-size: 28px;
+	margin: 0 0 6%;
+}
+
+.gender-table img {
+	margin: -6px 10px 0 0;
+	vertical-align: middle;
+}
+
+img.gender-graph {
+	width: 100%;
+}
+
+
+
+
+/*
+	money
+*/
+#money {
+	width: 70%;
+	margin: 0 15%;
+	text-align: left;
+}
+
+#money-title {
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	font-size: 28px;
+	margin: 0 0 8%;
+}
+
+#money-title img {
+	margin: -10px 10px 0 0;
+	vertical-align: middle;
+}
+
+#money-image {
+	border-bottom: 1px solid #fff;
+	margin: 0 0 8%;
+	padding: 0 0 8%;
+}
+
+#money-text {
+	font-family: 'museo_sans500';
+	font-size: 29px;
+	display: inline-block;
+	line-height: 1.2;
+}
+
+#money-text strong {
+	float: left;
+	color: #EA6E00;
+	font-size: 76px;
+	line-height: 1;
+	margin: 0 2% 0 0;
+}
+
+/*
+	time
+*/
+#time {
+	width: 80%;
+	margin: 0 10%;
+	text-align: left;
+}
+
+#time-title {
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	font-size: 28px;
+	margin: 0 0 3%;
+}
+
+#time-title img {
+	margin: -10px 10px 0 0;
+	vertical-align: middle;
+}
+
+#time-data-list {
+	margin: 0;
+	width: 100%;
+}
+
+#time-data-list li {
+	background: #FFF;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	height: 170px;
+	font-family: 'museo_sans700';
+	padding: 20px 0 0 20px;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#time-data-list p {
+	padding: 0;
+	font-size: 18px;
+	width: 75px;
+	line-height: 1.5;
+	margin: 0 0 20px;
+}
+
+#time-data-list strong {
+	color: #ED8947;
+	font-size: 41px;
+}
+
+#time-data-01 {
+	width: 12.6%;
+}
+
+#time-data-02 {
+	width: 31.6%;
+}
+
+#time-data-03 {
+	width: 14.6%;
+}
+
+#time-data-04 {
+	width: 16.6%;
+}
+
+#time-data-05 {
+	width: 22.6%;
+}
+
+.time-text:last-child {
+	border-top: 1px solid #fff;
+	padding-top: 3%;
+}
+
+p.time-text {
+	font-family: 'museo_sans500';
+	font-size: 21px;
+	display: inline-block;
+	line-height: 1.2;
+	margin: 3% 17.5% 0;
+	width: 65%;
+	display: inline-block;
+	padding: 0;
+}
+
+p.time-text strong {
+	float: left;
+	color: #fff;
+	color: rgba(255,255,255,0.8);
+	font-size: 56px;
+	line-height: 1;
+	margin: 0 2% 0 0;
+}
+
+
+
+/*
+	Information
+*/
+
+
+#information {
+	width: 70%;
+	margin: 0 15%;
+	text-align: left;
+}
+
+#information-text {
+	width: 24%;
+	float: left;
+	padding: 0;
+	font-size: 14px;
+	margin: 6% 10% 0 0;
+	line-height: 2.2;
+}
+
+#information-title {
+	display: inline-block;
+	padding: 0 0 3% 2%;
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	font-size: 28px;
+}
+
+
+
+
+/*
+	Profile
+*/
+h3.profile-title {
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	font-size: 28px;
+}
+
+.profile-title img {
+	margin: -10px 10px 0 0;
+	vertical-align: middle;
+}
+
+
 
 /*
 	11
