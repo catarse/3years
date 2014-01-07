@@ -11,8 +11,6 @@ function Loader(){
 
   that.loadFile('slides_0_3', function(){
     Reveal.initialize({
-  //    width: 1276,
-  //    height: 638,
       controls: false,
       progress: false,
       history: false,
@@ -31,6 +29,11 @@ function Loader(){
         { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
         { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
       ]
+    });
+    that.loadFile('slides_4_7', function(){
+      that.loadFile('slides_8_11', function(){
+        that.loadFile('slides_12_15');
+      });
     });
   });
   /*
