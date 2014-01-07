@@ -9,6 +9,8 @@ function Loader(){
     });
   }
 
+  that.loadFile('slides_0_3');
+  /*
   that.loadFile('slides_0_3', function(){
     that.loadFile('slides_4_7', function(){
       that.loadFile('slides_8_11', function(){
@@ -39,6 +41,7 @@ function Loader(){
       });
     });
   });
+  */
 }
 
 var loader = window.loader = new Loader();
