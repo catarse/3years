@@ -11,8 +11,8 @@ function Loader(){
 
   that.loadFile('slides_0_3', function(){
     Reveal.initialize({
-      width: 1276,
-      height: 638,
+  //    width: 1276,
+  //    height: 638,
       controls: false,
       progress: false,
       history: false,
