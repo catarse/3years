@@ -217,7 +217,7 @@ p.big-subtitle {
 
 div.chapters {
 	width: 80%;
-	margin: 6% 10% 0;
+	margin: 4% 10% 0;
 }
 
 figure.result-group {
@@ -233,9 +233,26 @@ figure.result-group.last {
 	margin: 0;
 }
 
+figcaption.perfil {
+	color: #d8913d;
+}
+
+figcaption.financiamento {
+	color: #6aaf71;
+}
+
+figcaption.rede {
+	color: #cf6f50;
+}
+
+figcaption.realizadores {
+	color: #70acb8;
+}
+
+
+
 .result-group figcaption {
 	font-size: 22px;
-	color: #fff;
 	margin: 10% 0 0;
 }
 
@@ -253,9 +270,14 @@ figure.result-group.last {
 	padding: 4% 18% 0;
 }
 
+/*
+	7
+*/
+
+
 
 /*
-	gender
+	8
 */
 #gender {
 	width: 66%;
@@ -325,7 +347,7 @@ img.gender-graph {
 
 
 /*
-	money
+	9
 */
 #money {
 	width: 70%;
@@ -367,7 +389,116 @@ img.gender-graph {
 }
 
 /*
-	time
+	10
+*/
+#occupation {
+	margin: 4% 0 0;
+}
+
+#occupation li {
+	list-style: none;
+	display: inline-block;
+	width: 60%;
+	margin: 0 20% 1%;
+	border-bottom: 1px solid #EF8400;
+	position: relative;
+}
+
+#occupation p.item-1 { width: 99%; background: #EF8400; }
+#occupation p.item-2 { width: 69%; background: #EF8400; }
+#occupation p.item-3 { width: 56%; background: #EF8400; }
+#occupation p.item-4 { width: 56%; background: #EF8400; }
+#occupation p.item-5 { width: 50%; background: #EF8400; }
+#occupation p.item-6 { width: 22%; background: #EF8400; }
+#occupation p.item-7 { width: 22%; background: #EF8400; }
+#occupation p.item-8 { width: 27%; background: #EF8400; }
+
+
+#occupation p {
+	font-family: 'museo_sans700';
+	font-size: 24px;
+	color: white;
+	position: relative;
+	display: inline-block;
+	padding: 10px 5px;
+	margin: 0;
+}
+
+#occupation p + p {
+	position: absolute;
+	font-size: 30px;
+	color: rgba(0,0,0,0.90);
+	top: 0;
+	right: 0;
+}
+
+/*
+	11
+*/
+#workarea {
+	width: 60%;
+	margin: 0 20%;
+}
+
+#workarea div {
+	width: 35%;
+	float: left;
+	text-align: left;
+}
+
+#workarea div h3 {
+	font-family: 'museo_sans700';
+	font-size: 30px;
+}
+
+#workarea div p {
+	margin: 10% 0 0;
+	font-size: 24px;
+}
+
+#workarea ul {
+	width: 60%;
+	float: right;
+}
+
+#workarea li {
+	list-style: none;
+	display: inline-block;
+	width: 100%;
+}
+
+#workarea li p {
+	display: inline-block;
+	width: 15%;
+	text-align: right;
+}
+
+#workarea li p + p{
+	width: 80%;
+	text-align: left;
+	color: white;
+	margin: 0 0 0 1.5%;
+}
+
+#workarea li.item-1 { font-size: 30px;}
+#workarea li.item-2 { font-size: 30px;}
+#workarea li.item-3 { font-size: 30px;}
+#workarea li.item-4 { font-size: 28px;}
+#workarea li.item-5 { font-size: 24px;}
+#workarea li.item-6 { font-size: 22px;}
+#workarea li.item-7 { font-size: 22px;}
+#workarea li.item-8 { font-size: 20px;}
+#workarea li.item-9 { font-size: 18px;}
+#workarea li.item-10 { font-size: 18px;}
+#workarea li.item-11 { font-size: 16px;}
+#workarea li.item-12 { font-size: 16px;}
+#workarea li.item-13 { font-size: 16px;}
+#workarea li.item-14 { font-size: 14px;}
+#workarea li.item-15 { font-size: 14px;}
+#workarea li.item-16 { font-size: 12px;}
+
+/*
+	12
 */
 #time {
 	width: 80%;
