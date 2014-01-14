@@ -1,7 +1,7 @@
 /*
   elementTransitions.js
 */
-var PageTransitions = (function($) {
+var PageTransitions = window.PageTransitions = (function($) {
   var startElement = 0,
   animEndEventNames = {
     'WebkitAnimation': 'webkitAnimationEnd',
@@ -101,6 +101,11 @@ var PageTransitions = (function($) {
     $outpage.attr('class', $outpage.data( 'originalClassList'));
     $inpage.attr('class', $inpage.data( 'originalClassList') + ' et-page-current');
   }
+  
+  function goTo(index){
+    $('.et-wrapper .et-page').removeClass('et-page-current');
+    $('.et-wrapper .et-page:nth-child(' + index + ')').addClass('et-page-current');
+  }
 
   function formatClass(str) {
     classes = str.split(" ");
@@ -113,10 +118,16 @@ var PageTransitions = (function($) {
   return {
     init : init,
     nextPage: nextPage,
-    animate: animate
+    animate: animate,
+    goTo: goTo
   };
 })(jQuery);
 
 jQuery(function($) {
   PageTransitions.init();
+  $(window).on('hashchange', function(e){
+    var index = window.location.hash.split('/')[1];
+    PageTransitions.goTo(index);
+  });
+  $(window).trigger('hashchange');
 });
