@@ -8,6 +8,11 @@ function Loader(){
       if(onload != undefined){ onload(); }
     });
   }
+
+  $(window).on('hashchange', function() {
+    var slide = window.location.hash.split('/')[1];
+    that.loadFile('slide_' + slide);
+  });
 }
 
 var loader = window.loader = new Loader();
