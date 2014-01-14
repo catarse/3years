@@ -46,11 +46,14 @@
 
 }
 
-
 body {
 	font-family: 'museo_sans500';
   height: 100%;
   overflow: hidden;
+}
+
+.slides{
+  height: 800px;
 }
 
 .slides section {

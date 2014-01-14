@@ -11,12 +11,14 @@ function Loader(){
 
   $(window).on('hashchange', function() {
     var slide = window.location.hash.split('/')[1];
-    that.loadFile('slide_' + slide);
+    that.loadFile('slide_' + slide, function(){
+      //pageTransitions.nextPage(1);
+    });
   });
 }
 
 var loader = window.loader = new Loader();
 loader.loadFile('slide_1', function(){
-  $('section.pt-page').css('visibility', 'visible');
-  $('section.pt-page').addClass('pt-page-current');
+  //var $firstPage = $('section.pt-page:first');
+  //$firstPage.addClass('pt-page-current');
 });

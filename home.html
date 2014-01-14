@@ -13,13 +13,8 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <!--<link rel="stylesheet" href="css/animation.css">-->
-    <!--<link rel="stylesheet" href="css/component.css">-->
+    <link rel="stylesheet" href="lib/css/elementTransitions.css">
 		<link rel="stylesheet" href="css/style.css">
-
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
 
 		<!-- G+ -->
 		<meta itemprop="name" content="Retrato do Financiamento Coletivo BR #rfcbr">
@@ -43,12 +38,58 @@
     </div>
     <div class="stamp"><a href="#/0">#rfcbr</a></div>
     <!-- 0 -->
-    <div class="slides pt-perspective">
+    <div class="slides et-wrapper">
+      <section class="et-page" data-background="radial-gradient(circle, #ffffff, #eeeeee)">
+        <h1 class="presentation-frame">
+          retrato<br>
+          financiamento<br>
+          coletivo<br>
+          brasil<br>
+          <small>2013/2014</small>
+        </h1>
+        <img src="img/logos.png"></img>
+
+        <!-- navigation -->
+        <a class="arrow-right first-arrow et-rotate" et-in="rotateRoomLeftIn" et-out="rotateRoomLeftOut ontop">Começar</a>
+      </section>
+      <section class="et-page" style= "background-color: red">
+        <p class="presentation-text">A pesquisa Retrato do Financiamento Coletivo no Brasil é um primeiro passo para um maior entendimento sobre o cenário do crowdfunding brasileiro. Os dados que serão apresentados são um recorte, e tem o intuito de permitir aos participantes deste ecosistema, sejam plataformas, realizadores ou apoiadores, compreender melhor o meio no qual estão inseridos.</p>
+        <p class="presentation-text">Acreditamos que quanto mais disponibilizarmos informação aberta a todos, mais potência teremos ao desenvolver o financiamento coletivo em terras brasileiras.</p>
+        <p class="presentation-text">Este estudo é uma parceria entre o Catarse, maior comunidade de financiamento coletivo do Brasil, e a Chorus, empresa de pesquisa com foco em projetos ligados à cultura e sociedade.</p>
+        <img src="img/logos.png"></img>
+
+        <!-- navigation -->
+        <a class="arrow-left et-rotate" et-in="rotateRoomLeftIn" et-out="rotateRoomLeftOut ontop">anterior</a>
+        <a class="arrow-right et-rotate" et-in="rotateRoomRightIn" et-out="rotateRoomRightOut ontop">próximo</a>
+      </section>
+<section class="et-page" data-background="radial-gradient(circle, #ffffff, #eeeeee)">
+  <h2 class="dark-h2">O que queremos?</h2>
+  <div class="we-want">
+    <h3>Conhecer</h3>
+    <p>o perfil das pessoas que fazem o financiamento coletivo acontecer no Brasil</p>
+    <h3>Compreender</h3>
+    <p>os comportamentos, motivações e porquês das pessoas ao apoiarem um projeto</p>
+  </div>
+  <div class="we-want">
+    <h3>Analisar</h3>
+    <p>o cenário atual do financiamento coletivo no país</p>
+    <h3>Apresentar</h3>
+    <p>um pouco da ótica dos realizadores de projetos que já passaram pela plataforma do Catarse</p>
+  </div>
+
+  <!-- navigation -->
+        <a class="arrow-left et-rotate" et-in="rotateRoomLeftIn" et-out="rotateRoomLeftOut ontop">anterior</a>
+        <a class="arrow-right et-rotate" et-in="rotateRoomRightIn" et-out="rotateRoomRightOut ontop">próximo</a>
+</section>
+
+
+
 
     </div>
 
     <script src="lib/js/jquery-2.0.3.min.js"></script>
-    <script src="js/loader.js"></script>
+    <script src="lib/js/modernizr.custom.js"></script>
+    <script src="js/elementTransitions.js"></script>
 
     <!-- Facebook -->
     <div id="fb-root"></div>
