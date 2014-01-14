@@ -127,7 +127,9 @@ jQuery(function($) {
   PageTransitions.init();
   $(window).on('hashchange', function(e){
     var index = window.location.hash.split('/')[1];
-    PageTransitions.goTo(index);
+    if(index){
+      PageTransitions.goTo(index);
+    }
   });
   $(window).trigger('hashchange');
 });
