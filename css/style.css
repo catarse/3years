@@ -49,6 +49,8 @@
 
 body {
 	font-family: 'museo_sans500';
+  height: 100%;
+  overflow: hidden;
 }
 
 .slides section {
@@ -768,7 +770,7 @@ a.arrow-right:hover {
 
 
 /* fixed */
-.reveal .share {
+.share {
 	position: fixed;
 	right: 20px;
 	bottom: 20px;
@@ -807,7 +809,7 @@ a.arrow-right:hover {
 	margin: 0 0 6px;
 }
 
-.reveal .stamp {
+.stamp {
 	position: fixed;
 	left: 20px;
 	bottom: 20px;
@@ -818,7 +820,7 @@ a.arrow-right:hover {
 	padding: 8px 0 0 45px;
 }
 
-.reveal .stamp a {
+.stamp a {
 	color: #000;
 	color: rgba(0,0,0,0.75);
 	font-size: 16px;

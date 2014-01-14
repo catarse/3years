@@ -4,7 +4,7 @@ function Loader(){
 
   this.loadFile = function (fileName, onload){
     return $.get(fileName + '.html').success(function(data){
-      that.slides.html(data);
+      that.slides.append(data);
       if(onload != undefined){ onload(); }
     });
   }
@@ -16,4 +16,7 @@ function Loader(){
 }
 
 var loader = window.loader = new Loader();
-loader.loadFile('slide_1');
+loader.loadFile('slide_1', function(){
+  $('section.pt-page').css('visibility', 'visible');
+  $('section.pt-page').addClass('pt-page-current');
+});
