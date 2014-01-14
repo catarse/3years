@@ -44,11 +44,12 @@ var PageTransitions = (function($) {
   }
 
   function animate(block, callback) {
-    nextPage($(block).closest('.et-wrapper'), $(block).attr('et-out'), $(block).attr('et-in'), callback);
+    nextPage($(block).closest('.et-wrapper'), $(block).data('direction'), $(block).attr('et-out'), $(block).attr('et-in'), callback);
   }
 
-  function nextPage(block, outClass, inClass, callback) {
+  function nextPage(block, direction, outClass, inClass, callback) {
     block = $(block);
+    console.log(outClass);
     inClass = formatClass(inClass);
     outClass = formatClass(outClass);
     var $pages = block.children('.et-page'),
@@ -64,7 +65,12 @@ var PageTransitions = (function($) {
 
     var $currPage = $('.et-page-current');
 
-    var $nextPage = $currPage.next().addClass('et-page-current');
+    if(direction == 'next'){
+      var $nextPage = $currPage.next().addClass('et-page-current');
+    }
+    else{
+      var $nextPage = $currPage.prev().addClass('et-page-current');
+    }
 
     $currPage.addClass(outClass).on(animEndEventName, function() {
       $currPage.off(animEndEventName);
