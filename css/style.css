@@ -285,6 +285,28 @@ figcaption.realizadores {
 /*
 	8
 */
+.regions {
+	width: 80%;
+	margin: 0 10%;
+}
+
+.regions-img {
+	float: left;
+	width: 60%;
+}
+
+.regions-text {
+	width: 30%;
+	float: left;
+	text-align: left;
+	margin: 0 0 0 10%;
+}
+
+.regions-text p {
+	padding: 0;
+}
+
+
 #gender {
 	width: 66%;
 	margin: 0 16% 0 18%;
@@ -408,6 +430,7 @@ img.gender-graph {
 	margin: 0 20% 1%;
 	border-bottom: 1px solid #EF8400;
 	position: relative;
+	text-align: left;
 }
 
 #occupation p.item-1 { width: 99%; background: #EF8400; }
@@ -442,12 +465,12 @@ img.gender-graph {
 	11
 */
 #workarea {
-	width: 60%;
-	margin: 0 20%;
+	width: 70%;
+	margin: 0 15%;
 }
 
 #workarea div {
-	width: 35%;
+	width: 37%;
 	float: left;
 	text-align: left;
 }
@@ -459,11 +482,12 @@ img.gender-graph {
 
 #workarea div p {
 	margin: 10% 0 0;
-	font-size: 24px;
+	font-size: 22px;
+	line-height: 30px;
 }
 
 #workarea ul {
-	width: 60%;
+	width: 55%;
 	float: right;
 }
 
@@ -600,26 +624,24 @@ p.time-text strong {
 	margin: 0 2% 0 0;
 }
 
-
-
 /*
-	Information
+	14
 */
 
+.habits {
+	font-family: 'museo_sans700';
+	font-size: 30px;
+	color: #fff;
+	margin: 0 0 5%;
+}
 
+/*
+	15
+*/
 #information {
 	width: 70%;
 	margin: 0 15%;
-	text-align: left;
-}
-
-#information-text {
-	width: 24%;
-	float: left;
-	padding: 0;
-	font-size: 14px;
-	margin: 6% 10% 0 0;
-	line-height: 2.2;
+	text-align: center;
 }
 
 #information-title {
@@ -631,6 +653,15 @@ p.time-text strong {
 }
 
 
+/*
+	16
+*/
+#disqus_thread {
+	width: 60%;
+	background: #FFF;
+	padding: 3%;
+	margin: 3% 17% 0;
+}
 
 
 /*
@@ -646,6 +677,7 @@ h3.profile-title {
 	margin: -10px 10px 0 0;
 	vertical-align: middle;
 }
+
 
 
 
@@ -776,41 +808,23 @@ a.arrow-right:hover {
 /* fixed */
 .share {
 	position: fixed;
-	right: 20px;
+	right: 0;
 	bottom: 20px;
-	width: 160px;
-	height: 135px;
 	z-index: 30;
 }
 
-.share p {
-	position: absolute;
-	bottom: 0;
-	color: #000;
-	color: rgba(0,0,0,0.75);
-	font-size: 12px;
-	background: url(../img/comp-rodape.png) top right no-repeat;
-	padding-right: 25px;
-	line-height: 16px;
-}
-
 .share ul {
-	opacity: 0;
-	background: #fff;
-	background: rgba(255,255,255,0.70);
-	border: 1px solid #000;
-	border: 1px solid rgba(0,0,0,0.75);
-	padding: 10px 0 10px 10px;
-	border-radius: 5px;
-}
 
-.share:hover ul {
-	opacity: 1;
 }
 
 .share li {
 	list-style: none;
-	margin: 0 0 6px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.share li:first-child {
+	margin: 0 30px 0 0;
 }
 
 .stamp {
