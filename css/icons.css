@@ -1,0 +1,52 @@
+@font-face {
+	font-family: '3years';
+	src:url('../fonts/3years.eot');
+	src:url('../fonts/3years.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/3years.woff') format('woff'),
+		url('../fonts/3years.ttf') format('truetype'),
+		url('../fonts/3years.svg#3years') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+	font-family: '3years';
+	content: "\e601";
+	font-size: 20px;
+	margin: 0 5px 0 0;
+	color: white;
+}
+.icon-lamp:before {
+	font-family: '3years';
+	content: "\e60c";
+	margin: 0 5px 15px 0;
+	color: white;
+	float: left;
+}
+.icon-engine:before {
+	font-family: '3years';
+	content: "\e60d";
+	margin: 0 5px 0 0;
+	color: white;
+}
+
+.icon-thumb:before {
+	content: "\e600";
+	font-family: '3years';
+	font-size: 27px;
+	margin: 0 7px 0 0;
+	color: white;
+}
