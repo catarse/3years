@@ -252,7 +252,7 @@ p.big-subtitle {
 
 div.chapters {
 	width: 80%;
-	margin: 4% 10% 0;
+	margin: 3% 10% 0;
 }
 
 figure.result-group {
@@ -473,6 +473,7 @@ img.gender-graph {
 	border-bottom: 1px solid #fff;
 	margin: 0 0 8%;
 	padding: 0 0 8%;
+	width: 100%;
 }
 
 #money-text {
@@ -738,7 +739,7 @@ p.time-text strong {
 	16
 */
 p.disqus-text {
-	padding-top: 1%;
+	padding: 1% 0 !important;
 }
 
 #disqus_thread {
@@ -917,6 +918,10 @@ p.disqus-text {
 	padding: 0;
 }
 
+.projects-missing strong {
+	font-family: 'museo_sans700';
+}
+
 /*
 	22
 */
@@ -981,7 +986,7 @@ p.disqus-text {
 */
 
 /*********************************** Bloco 3 **********************************************************************/
-.network  {
+.network {
 	background: radial-gradient(circle, #f19e8a, #ea6c4c);
 }
 
@@ -998,8 +1003,195 @@ p.disqus-text {
 	padding: 1% 18% 0;
 }
 
-/*36*/
-<img src="img/rede/imagem-rede-balao.png" alt="">
+.network > div {
+	width: 80%;
+	margin: 0 10%;
+}
+
+/*
+	25
+*/
+
+/*
+	26
+*/
+
+.network-circle {
+	position: relative;
+	top: -287px;
+}
+
+.network-h2 {
+	color: white;
+	font-size: 55px;
+}
+
+.network-h3 {
+	color: white;
+	font-size: 28px;
+}
+
+/*
+	27
+*/
+.network-side-text {
+	width: 50%;
+	float: right;
+	text-align: left;
+}
+
+.network-side-text p {
+	padding: 0;
+	margin: 3% 0 0;
+	font-size: 18px;
+}
+
+.first-cirle {
+	margin: 140px 0;
+}
+
+/*
+	28
+*/
+.second-cirle {
+	margin: 80px 0;
+}
+
+/*
+	29
+*/
+
+/*
+	30
+*/
+.presence-title {
+	margin: 0 0 4%;
+}
+
+/*
+	31
+*/
+.missing {
+	font-family: 'museo_sans700';
+	font-size: 60px;
+	line-height: 80px;
+}
+
+/*
+	32
+*/
+.other-way {
+	font-family: 'museo_sans700';
+	font-size: 38px;
+	line-height: 45px;
+	margin: 0 8%;
+}
+
+/*
+	33
+*/
+.icon-star {
+	margin: 0 0 4%;
+}
+
+p.side-graphic {
+	width: 35%;
+	float: left;
+	text-align: left;
+	margin: 0 5% 0 0;
+	padding: 0;
+}
+
+.popular {
+	width: 60%;
+	float: left;
+}
+
+.popular li {
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+	height: 63px;
+	margin: 0 0 2px;
+}
+
+.popular p {
+	font-size: 14px;
+	padding: 0;
+	line-height: 22px;
+	display: inline-block;
+	width: 80%;
+	margin: 11px 0;
+}
+
+.popular span {
+	color: white;
+	font-size: 38px;
+	font-family: 'museo_sans700';
+	display: inline-block;
+	vertical-align: middle;
+	width: 12%;
+	margin: 0px 3%;
+	line-height: 64px;
+	text-align: right;
+}
+
+.popular span.special {
+	margin-top: -20px;
+}
+
+.popular .item-1 { background: RGBA(225, 77, 46, 1); }
+.popular .item-2 { background: RGBA(225, 77, 46, 0.8); }
+.popular .item-3 { background: RGBA(225, 77, 46, 0.6); }
+.popular .item-4 { background: RGBA(225, 77, 46, 0.6); }
+.popular .item-5 { background: RGBA(225, 77, 46, 0.4); }
+.popular .item-6 { background: RGBA(225, 77, 46, 0.2); }
+
+/*
+	34
+*/
+.icon-companies {
+	margin: 0 0 4%;
+}
+
+
+/*
+	35
+*/
+p.government {
+	font-size: 24px;
+	padding: 0;
+	line-height: 30px;
+	width: 40%;
+	margin: 12% 30% 0;
+}
+
+.government strong {
+	font-family: 'museo_sans700';
+	font-size: 160px;
+	color: white;
+	display: block;
+	height: 90px;
+}
+
+/*
+	36
+*/
+p.text-ballon {
+	padding: 1% 8% 0;
+}
+
+.network-ballon {
+	background: url("../img/rede/imagem-rede-balao.png") center center no-repeat;
+}
+
+.network-ballon p{
+	padding-top: 5%;
+}
+
+.network-ballon a {
+	background: #F09B7C;
+}
 
 
 /*
@@ -1182,18 +1374,3 @@ a.arrow-right:hover {
 	font-size: 16px;
 	text-decoration: none;
 }
-
-/*
-	backgrounds
-*/
-.bg-eeeeee {
-	/* fallback */
-  background-color: #eeeeee;
-
-  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#eeeeee));
-  background: -webkit-radial-gradient(circle, #1a82f7, #eeeeee);
-  background: -moz-radial-gradient(circle, #1a82f7, #eeeeee);
-  background: -ms-radial-gradient(circle, #1a82f7, #eeeeee);
-}
-
-
