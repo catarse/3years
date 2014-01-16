@@ -748,9 +748,7 @@ p.disqus-text {
 	margin: 2% 17% 0;
 }
 
-/*
-	Bloco 2
-*/
+/*********************************** Bloco 2 **********************************************************************/
 .financing {
 	background: radial-gradient(circle, #99d8a9, #64c47d)
 }
@@ -982,6 +980,26 @@ p.disqus-text {
 	24
 */
 
+/*********************************** Bloco 3 **********************************************************************/
+.network  {
+	background: radial-gradient(circle, #f19e8a, #ea6c4c);
+}
+
+.network h3 {
+	font-size: 30px;
+	padding: 2% 0 0;
+}
+
+.network p {
+	font-size: 24px;
+	line-height: 36px;
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	padding: 1% 18% 0;
+}
+
+/*36*/
+<img src="img/rede/imagem-rede-balao.png" alt="">
 
 
 /*

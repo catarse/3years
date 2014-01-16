@@ -50,3 +50,23 @@
 	margin: 0 7px 0 0;
 	color: white;
 }
+
+
+.icon-companies:before {
+	content: "\e602";
+	font-family: '3years';
+	margin: 0 5px 0 0;
+	color: white;
+}
+.icon-government:before {
+	content: "\e603";
+	font-family: '3years';
+	margin: 0 5px 0 0;
+	color: white;
+}
+.icon-star:before {
+	content: "\e604";
+	font-family: '3years';
+	margin: 0 5px 0 0;
+	color: white;
+}
