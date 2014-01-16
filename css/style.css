@@ -741,7 +741,7 @@ p.disqus-text {
 	padding-top: 1%;
 }
 
-#disqus_thread {
+#disqus_thread, .disqus_iframe {
 	width: 60%;
 	background: #FFF;
 	padding: 3%;
