@@ -125,13 +125,13 @@ p.presentation-text {
 	margin: 0 0 3%;
 }
 
-h2.dark-h2 {
+.dark-h2 {
 	font-size: 60px;
 	color: #000;
 	color: rgba(0,0,0,0.65);
 }
 
-div.we-want {
+.we-want {
 	width: 25%;
 	display: inline-block;
 	text-align: left;
@@ -150,7 +150,11 @@ div.we-want {
 	line-height: 30px;
 	color: #000;
 	color: rgba(0,0,0,0.75);
-	margin: 5% 0 20%;
+	margin: 5% 0 0;
+}
+
+.we-want div {
+	height: 180px;
 }
 
 div.we-done {
@@ -237,7 +241,7 @@ p.subtitle {
 	font-size: 24px;
 	color: #000;
 	color: rgba(0,0,0,0.75);
-	padding: 1% 19%;
+	padding: 1% 17%;
 }
 
 p.big-subtitle {
@@ -311,13 +315,15 @@ figcaption.realizadores {
 	8
 */
 .regions {
-	width: 80%;
-	margin: 0 10%;
+	width: 70%;
+	margin: 0 15% 0;
+	position: absolute;
+	top: 50%;
 }
 
 .regions-img {
 	float: left;
-	width: 60%;
+	width: 50%;
 }
 
 .regions-text {
@@ -327,9 +333,52 @@ figcaption.realizadores {
 	margin: 0 0 0 10%;
 }
 
+.regions-text h3 {
+	font-size: 28px;
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	margin: 0 0 6%;
+}
+
 .regions-text p {
 	padding: 0;
+	font-size: 14px;
+	line-height: 19px;
 }
+
+.regions-text .black-subtitle {
+	margin: 7% 0 0;
+}
+
+.regions-text .black-subtitle:before {
+	content: '';
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: #000;
+	margin: -3px 5px 0 0;
+	vertical-align: middle;
+}
+
+.regions-text .white-subtitle {
+	color: #fff;
+	margin: 1% 0 5%;
+}
+
+.regions-text .white-subtitle:before {
+	content: '';
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	margin: -3px 5px 0 0;
+	vertical-align: middle;
+}
+
+.source {
+	font-size: 12px;
+}
+
 
 
 #gender {
@@ -444,6 +493,13 @@ img.gender-graph {
 /*
 	10
 */
+.occupation-title {
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	font-size: 28px;
+	margin: 0 0 2%;
+}
+
 #occupation {
 	margin: 4% 0 0;
 }
@@ -508,7 +564,7 @@ img.gender-graph {
 #workarea div p {
 	margin: 10% 0 0;
 	font-size: 22px;
-	line-height: 30px;
+	line-height: 27.5px;
 }
 
 #workarea ul {
@@ -681,12 +737,251 @@ p.time-text strong {
 /*
 	16
 */
+p.disqus-text {
+	padding-top: 1%;
+}
+
 #disqus_thread {
 	width: 60%;
 	background: #FFF;
 	padding: 3%;
-	margin: 3% 17% 0;
+	margin: 2% 17% 0;
 }
+
+/*
+	Bloco 2
+*/
+.financing {
+	background: radial-gradient(circle, #99d8a9, #64c47d)
+}
+
+.financing h3 {
+	font-size: 30px;
+	padding: 2% 0 0;
+}
+
+.white-title {
+	color: #fff;
+}
+
+.financing p {
+	font-size: 24px;
+	line-height: 36px;
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	padding: 1% 18% 0;
+}
+
+/*
+	18
+*/
+.ballon {
+	background: url("../img/financiamento/grafico-financiamento-2.png") center center no-repeat;
+	width: 875px;
+	height: 430px;
+	margin: 2% auto 0;
+}
+
+.ballon p {
+	font-family: 'museo_sans500';
+	font-size: 24px;
+	line-height: 36px;
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	margin: 0 0 3%;
+	padding: 8% 12% 0;
+}
+
+.ballon a {
+	color: white;
+	font-family: 'museo_sans700';
+	font-size: 14px;
+	background: #66bc79;
+	padding: 6px 12px;
+}
+
+/*
+	19
+*/
+.supported {
+	width: 70%;
+	text-align: left;
+	margin: 0 15%;
+}
+
+.supported h3 {
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	font-size: 24px;
+	line-height: 28px;
+	font-family: 'museo_sans700';
+}
+
+.supported .columns {
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.supported .columns:first-child {
+	margin: 0 9% 0 0;
+}
+
+.supported .columns:first-child ul {
+	margin: 9% 0 0;
+}
+
+.supported ul {
+	margin: 5% 0 0;
+}
+
+.supported li {
+	position: relative;
+	height: 40px;
+	border-bottom: 1px solid white;
+	margin: 0 0 1%;
+}
+
+.supported p {
+	padding: 0;
+	position: relative;
+	line-height: 40px;
+	left: 6px;
+	font-size: 17px;
+}
+
+.supported span {
+	position: absolute;
+	right: 4px;
+	top: 8px;
+	font-size: 24px;
+}
+
+.supported [class^="item-"], .supported [class*=" item-"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: white;
+	display: inline-block;
+	height: 40px;
+}
+
+.supported .item-1 { width: 24%; }
+.supported .item-2 { width: 33%; }
+.supported .item-3 { width: 64%; }
+.supported .item-4 { width: 100%; }
+.supported .item-5 { width: 50%; }
+.supported .item-6 { width: 100%; }
+.supported .item-7 { width: 18%; }
+.supported .item-8 { width: 9%; }
+.supported .item-9 { width: 7%; }
+/*
+	20
+*/
+.project-type {
+	margin: 5% auto 0;
+	width: 50%;
+}
+
+.project-type li {
+	margin: 0 0 3px;
+	background: #4daf62;
+	height: 72px;
+	padding: 10px 0;
+}
+
+.project-type p {
+	font-family: 'museo_sans700';
+	font-size: 21px;
+	color: white;
+	text-align: left;
+	padding: 0;
+}
+
+.project-type span {
+	font-family: 'museo_sans700';
+	display: inline-block;
+	font-size: 50px;
+	color: white;
+	float: left;
+	margin: 11px 21px;
+}
+
+/*
+	21
+*/
+.projects-missing {
+	font-size: 30px;
+	line-height: 40px;
+	margin: 4% auto 0;
+	width: 60%;
+	text-align: left;
+	padding: 0;
+}
+
+/*
+	22
+*/
+.interest-projects {
+	width: 80%;
+}
+
+/*
+	23
+*/
+.factors {
+	width: 70%;
+	margin: 4% auto 2%;
+}
+
+.factors li {
+	width: 100%;
+	display: inline-block;
+}
+
+.factors p {
+	font-family: 'museo_sans700';
+	font-size: 18px;
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	background: white;
+	float: left;
+	padding: 0 0 0 5px;
+	text-align: left
+}
+
+.factors span {
+	font-family: 'museo_sans700';
+	font-size: 22px;
+ 	color: white;
+	float: left;
+	margin: 0 0 0 5px;
+	line-height: 36px;
+}
+
+.factors .item-1 { width: 95%; }
+.factors .item-2 { width: 80%; }
+.factors .item-3 { width: 78%; }
+.factors .item-4 { width: 54%; }
+.factors .item-5 { width: 48%; }
+.factors .item-6 { width: 46%; }
+.factors .item-7 { width: 39%; }
+
+.scale {
+	font-family: 'museo_sans500';
+	font-size: 14px;
+	float: left;
+	width: 70%;
+	text-align: left;
+	margin: 0 15%;
+}
+
+
+
+/*
+	24
+*/
+
 
 
 /*
