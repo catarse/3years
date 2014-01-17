@@ -1299,6 +1299,12 @@ p.text-ballon {
 	font-size: 26px;
 	font-family: 'museo_sans700';
 	width: 20%;
+	line-height: 42px;
+	margin: -20px 0 0;
+}
+
+.area li:first-child span {
+	margin: 0;
 }
 
 .area p {
