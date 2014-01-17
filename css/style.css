@@ -744,7 +744,7 @@ p.time-text strong {
 	16
 */
 p.disqus-text {
-	padding: 0 !important;
+	padding: 1% 15% 0 !important
 }
 
 #disqus_thread, .disqus_iframe {
