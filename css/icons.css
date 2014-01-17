@@ -29,6 +29,7 @@
 	margin: 0 5px 0 0;
 	color: white;
 }
+
 .icon-lamp:before {
 	font-family: '3years';
 	content: "\e60c";
@@ -36,6 +37,7 @@
 	color: white;
 	float: left;
 }
+
 .icon-engine:before {
 	font-family: '3years';
 	content: "\e60d";
@@ -96,4 +98,31 @@
 	font-family: '3years';
 	margin: 0 5px 0 0;
 	color: white;
+}
+
+.icon-share-green:before {
+	content: "\e609";
+	font-family: '3years';
+	margin: 10px 10px 3px 0;
+	color: #79C331;
+	font-size: 50px;
+	float: left;
+}
+
+.icon-mail-green:before {
+	content: "\e60a";
+	font-family: '3years';
+	margin: 10px 10px 3px 0;
+	color: #79C331;
+	font-size: 50px;
+	float: left;
+}
+
+.icon-heart-green:before {
+	font-family: '3years';
+	content: "\e601";
+	margin: 10px 10px 3px 0;
+	color: #79C331;
+	font-size: 50px;
+	float: left;
 }
