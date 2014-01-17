@@ -1193,6 +1193,388 @@ p.text-ballon {
 	background: #F09B7C;
 }
 
+/*********************************** Bloco 4 **********************************************************************/
+/*
+	38
+*/
+.creator {
+	background: radial-gradient(circle, #a0d1da, #6db9c7);
+}
+
+.creator h3 {
+	font-size: 30px;
+	padding: 2% 0 0;
+}
+
+.creator p {
+	font-size: 24px;
+	line-height: 36px;
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	padding-top: 1%;
+}
+
+.intro-text {
+	padding: 1% 18% 0;
+}
+
+/*
+	39
+*/
+.age {
+	width: 50%;
+	margin: 6% 25% 0;
+}
+
+.age li {
+	display: inline-block;
+	position: relative;
+	height: 40px;
+	width: 100%;
+	margin: 0 0 4px;
+	border-bottom: 1px solid white;
+}
+
+.age div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: white;
+	height: 40px;
+}
+
+.age p {
+	position: relative;
+	font-size: 20px;
+	line-height: 45px;
+	text-align: left;
+	padding: 0 0 0 5px;
+}
+
+.age span {
+	position: absolute;
+	right: 5px;
+	top: 7px;
+	font-size: 30px;
+}
+
+.age .item-1 { width: 3%; }
+.age .item-2 { width: 46%; }
+.age .item-3 { width: 100%; }
+.age .item-4 { width: 76%; }
+.age .item-5 { width: 41%; }
+.age .item-6 { width: 6%; }
+
+/*
+	40
+*/
+.creators-do {
+	width: 70%;
+	margin: 4% 15% 0;
+}
+
+.area {
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 3% 0 0;
+}
+
+.area li {
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 5%;
+}
+
+.area span {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: right;
+	color: white;
+	font-size: 26px;
+	font-family: 'museo_sans700';
+	width: 20%;
+}
+
+.area p {
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'museo_sans700';
+	font-size: 17px;
+	width: 74%;
+	margin: 0 0 0 4%;
+	text-align: left;
+	line-height: 20px;
+}
+
+.job {
+	border-left: 1px solid white;
+	margin: 0 0 0 5%;
+	padding: 3% 0 3% 5%;
+	width: 64%;
+	display: inline-block;
+}
+
+.job li {
+	display: inline-block;
+	position: relative;
+	height: 40px;
+	width: 100%;
+	margin: 0 0 4px;
+	border-bottom: 1px solid #54A3B4;
+}
+
+.job div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #54A3B4;
+	height: 40px;
+}
+
+.job p {
+	position: relative;
+	font-size: 14px;
+	line-height: 45px;
+	text-align: left;
+	padding: 0 0 0 15px;
+	font-family: 'museo_sans700';
+	color: white;
+}
+
+.job span {
+	position: absolute;
+	right: 5px;
+	top: 12px;
+	font-size: 20px;
+	font-family: 'museo_sans700';
+}
+
+.job .item-1 { width: 100%; }
+.job .item-2 { width: 62%; }
+.job .item-3 { width: 40%; }
+.job .item-4 { width: 38%; }
+.job .item-5 { width: 25%; }
+.job .item-6 { width: 22%; }
+.job .item-7 { width: 22%; }
+.job .item-8 { width: 3%; }
+
+/*
+	41
+*/
+.money-sign {
+	color: white;
+	margin: 0 5px 0 0;
+}
+
+.project-money {
+	margin: 5% 0 0;
+}
+
+/*
+	42
+*/
+p.creator-subtitle {
+	font-family: 'museo_sans700';
+	font-size: 19px;
+	color: #4a7982;
+}
+
+.phases {
+	width: 70%;
+	margin: 4% 15% 0;
+}
+
+.phases li {
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.phases h4 {
+	font-family: 'museo_sans700';
+	font-size: 38px;
+	color: white;
+	margin: 0 0 2%;
+}
+
+.phases-block {
+	width: 100%;
+	display: inline-block;
+	height: 155px;
+	background: RGBA(101, 169, 182, 0.50);
+	padding: 15px 0;
+}
+
+.phases-block li {
+	width: 100%;
+	display: inline-block;
+}
+
+.phases-block p {
+	text-align: left;
+	font-family: 'museo_sans700';
+	font-size: 17px;
+	color: white;
+	padding: 0 0 0 10px;
+}
+
+/*
+	43
+*/
+.why-succeed {
+	margin: 4% 15% 0;
+	width: 70%;
+	display: inline-block;
+}
+
+.why-succeed li {
+	display: inline-block;
+	position: relative;
+	height: 40px;
+	width: 100%;
+	margin: 0 0 4px;
+	background: #52a0b1;
+}
+
+.why-succeed p {
+	display: inline-block;
+	position: relative;
+	font-size: 19px;
+	line-height: 45px;
+	text-align: left;
+	padding: 0 0 0 15px;
+	font-family: 'museo_sans700';
+	color: white;
+	float: left;
+}
+
+.why-succeed span {
+	position: absolute;
+	right: 5px;
+	top: 7px;
+	font-size: 29px;
+	font-family: 'museo_sans700';
+}
+
+.why-succeed .item-1 { background: RGBA(78, 160, 178, 1);}
+.why-succeed .item-2 { background: RGBA(78, 160, 178, 0.70);}
+.why-succeed .item-3 { background: RGBA(78, 160, 178, 0.70);}
+.why-succeed .item-4 { background: RGBA(78, 160, 178, 0.55);}
+.why-succeed .item-5 { background: RGBA(78, 160, 178, 0.55);}
+.why-succeed .item-6 { background: RGBA(78, 160, 178, 0.55);}
+.why-succeed .item-7 { background: RGBA(78, 160, 178, 0.35);}
+.why-succeed .item-8 { background: RGBA(78, 160, 178, 0.20);}
+
+/*
+	44
+*/
+.not {
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.why-not-succeed {
+	margin: 4% 15% 0;
+	width: 70%;
+	display: inline-block;
+}
+
+.why-not-succeed li {
+	display: inline-block;
+	position: relative;
+	height: 40px;
+	width: 100%;
+	margin: 0 0 4px;
+	background: #52a0b1;
+}
+
+.why-not-succeed p {
+	display: inline-block;
+	position: relative;
+	font-size: 19px;
+	line-height: 45px;
+	text-align: left;
+	padding: 0 0 0 15px;
+	font-family: 'museo_sans700';
+	color: white;
+	float: left;
+}
+
+.why-not-succeed span {
+	position: absolute;
+	right: 5px;
+	top: 7px;
+	font-size: 29px;
+	font-family: 'museo_sans700';
+}
+
+.why-not-succeed .item-1 { background: RGBA(78, 160, 178, 1);}
+.why-not-succeed .item-2 { background: RGBA(78, 160, 178, 1);}
+.why-not-succeed .item-3 { background: RGBA(78, 160, 178, 0.65);}
+.why-not-succeed .item-4 { background: RGBA(78, 160, 178, 0.65);}
+.why-not-succeed .item-5 { background: RGBA(78, 160, 178, 0.65);}
+.why-not-succeed .item-6 { background: RGBA(78, 160, 178, 0.65);}
+.why-not-succeed .item-7 { background: RGBA(78, 160, 178, 0.45);}
+.why-not-succeed .item-8 { background: RGBA(78, 160, 178, 0.45);}
+.why-not-succeed .item-9 { background: RGBA(78, 160, 178, 0.45);}
+.why-not-succeed .item-10 { background: RGBA(78, 160, 178, 0.45);}
+
+/*
+	45
+*/
+.success-factors-box {
+	width: 70%;
+	margin: 4% 15% 0;
+}
+
+.success-factors {
+	font-size: 24px;
+	display: inline-block;
+	width: 33%;
+}
+
+.success-factors:before {
+	font-size: 160px;
+	line-height: 170px;
+	display: block;
+}
+
+/*
+	46
+*/
+.success-data {
+	font-size: 24px;
+	width: 30%;
+	display: inline-block;
+	margin: 5% 0 0;
+}
+
+.success-data strong {
+	color: white;
+	display: block;
+	font-size: 150px;
+	line-height: 150px;
+	font-family: 'museo_sans700';
+}
+
+/*
+	49
+*/
+.creator-ballon {
+	background: url("../img/realizador/imagem-realiza-12.png") center center no-repeat;
+}
+
+.creator-ballon p{
+	padding-top: 7%;
+}
+
+.creator-ballon a {
+	background: #65A9B6;
+}
+
+
+
 
 /*
 	Profile

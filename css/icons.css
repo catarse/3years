@@ -51,7 +51,6 @@
 	color: white;
 }
 
-
 .icon-companies:before {
 	content: "\e602";
 	font-family: '3years';
@@ -66,6 +65,34 @@
 }
 .icon-star:before {
 	content: "\e604";
+	font-family: '3years';
+	margin: 0 5px 0 0;
+	color: white;
+}
+
+.icon-reward:before {
+	content: "\e605";
+	font-family: '3years';
+	margin: 0 5px 0 0;
+	color: white;
+}
+
+.icon-transparency:before {
+	content: "\e606";
+	font-family: '3years';
+	margin: 0 5px 0 0;
+	color: white;
+}
+
+.icon-quality:before {
+	content: "\e607";
+	font-family: '3years';
+	margin: 0 5px 0 0;
+	color: white;
+}
+
+.icon-age:before {
+	content: "\e608";
 	font-family: '3years';
 	margin: 0 5px 0 0;
 	color: white;
