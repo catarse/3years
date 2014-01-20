@@ -1914,3 +1914,14 @@ a.arrow-right:hover {
 	height: 30px;
 	z-index: 30;
 }
+
+#menu-link {
+	background: url(../img/menu_indice.png) no-repeat;
+	width: 30px;
+	height: 30px;
+	display: block;
+}
+
+.close #menu-link {
+	background: url(../img/icon-close.png) no-repeat;
+}
