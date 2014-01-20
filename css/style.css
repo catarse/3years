@@ -125,7 +125,7 @@ p.presentation-text {
 	line-height: 34px;
 	color: #000;
 	color: rgba(0,0,0,0.75);
-	padding: 0 25%;
+	padding: 0 28%;
 	text-align: left;
 	margin: 0 0 3%;
 }
@@ -141,7 +141,7 @@ p.presentation-text {
 	display: inline-block;
 	text-align: left;
 	vertical-align: top;
-	margin: 6% 5% 0;
+	margin: 5% 4% 0;
 }
 
 .we-want h3 {
@@ -164,7 +164,7 @@ p.presentation-text {
 
 div.we-done {
 	text-align: left;
-	margin: 10% 0 0;
+	margin: 6% 0 0;
 }
 
 p.we-done-presentation {
@@ -173,9 +173,9 @@ p.we-done-presentation {
 	color: #000;
 	color: rgba(0,0,0,0.75);
 	float: left;
-	width: 25%;
+	width: 23%;
 	vertical-align: top;
-	margin: 0 0 0 18%;
+	margin: 0 3% 0 20%;
 }
 
 p.we-done-data {
@@ -184,8 +184,8 @@ p.we-done-data {
 	font-size: 18px;
 	line-height: 24px;
 	display: inline-block;
-	width: 44%;
-	margin: 0 12% 3% 0;
+	width: 37%;
+	margin: 0 10% 3% 0;
 }
 
 .we-done-data strong {
@@ -201,8 +201,8 @@ p.question {
 	line-height: 30px;
 	color: #000;
 	color: rgba(0,0,0,0.75);
-	width: 57%;
-	margin: 6% auto 0;
+	width: 50%;
+	margin: 4% auto 0;
 	text-align: left;
 }
 
@@ -244,9 +244,10 @@ h2.green-h2 {
 p.subtitle {
 	font-weight: 500;
 	font-size: 24px;
+	line-height: 29px;
 	color: #000;
 	color: rgba(0,0,0,0.75);
-	padding: 1% 17%;
+	padding: 1% 23%;
 }
 
 p.big-subtitle {
@@ -262,10 +263,10 @@ div.chapters {
 
 figure.result-group {
 	display: inline-block;
-	width: 24%;
+	width: 20%;
 	-webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 	padding: 0 3%;
 }
 
@@ -307,7 +308,7 @@ figcaption.realizadores {
 	line-height: 36px;
 	color: #000;
 	color: rgba(0,0,0,0.75);
-	padding: 4% 18% 0;
+	padding: 3% 22% 0;
 }
 
 /*
@@ -321,21 +322,21 @@ figcaption.realizadores {
 */
 .regions {
 	width: 70%;
-	margin: 0 15% 0;
+	margin: 0 12% 0;
 	position: absolute;
 	top: 50%;
 }
 
 .regions-img {
 	float: left;
-	width: 50%;
+	width: 60%;
 }
 
 .regions-text {
 	width: 30%;
 	float: left;
 	text-align: left;
-	margin: 0 0 0 10%;
+	margin: 5% 0 0 10%;
 }
 
 .regions-text h3 {
@@ -347,8 +348,8 @@ figcaption.realizadores {
 
 .regions-text p {
 	padding: 0;
-	font-size: 14px;
-	line-height: 19px;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .regions-text .black-subtitle {
@@ -394,7 +395,7 @@ figcaption.realizadores {
 
 #gender header {
 	vertical-align: middle;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #F9d1a1;
 	margin: 0 3% 4% 0;
 	padding: 0 0 4%;
 }
@@ -466,7 +467,7 @@ img.gender-graph {
 	color: #000;
 	color: rgba(0,0,0,0.75);
 	font-size: 28px;
-	margin: 0 0 8%;
+	margin: 0 0 5%;
 }
 
 #money-title img {
@@ -475,9 +476,9 @@ img.gender-graph {
 }
 
 #money-image {
-	border-bottom: 1px solid #fff;
-	margin: 0 0 8%;
-	padding: 0 0 8%;
+	border-bottom: 1px solid #F9D1A1;
+	margin: 0 0 5%;
+	padding: 0 0 5%;
 	width: 100%;
 }
 
@@ -514,7 +515,7 @@ img.gender-graph {
 	list-style: none;
 	display: inline-block;
 	width: 60%;
-	margin: 0 20% 1%;
+	margin: 0 20% 0.4%;
 	border-bottom: 1px solid #EF8400;
 	position: relative;
 	text-align: left;
@@ -531,7 +532,7 @@ img.gender-graph {
 
 
 #occupation p {
-	font-family: 'museo_sans700';
+	font-family: 'museo_sans500';
 	font-size: 24px;
 	color: white;
 	position: relative;
@@ -552,12 +553,12 @@ img.gender-graph {
 	11
 */
 #workarea {
-	width: 70%;
-	margin: 0 15%;
+	width: 80%;
+	margin: 0 10%;
 }
 
 #workarea div {
-	width: 37%;
+	width: 33%;
 	float: left;
 	text-align: left;
 }
@@ -574,7 +575,7 @@ img.gender-graph {
 }
 
 #workarea ul {
-	width: 55%;
+	width: 57%;
 	float: right;
 }
 
@@ -595,6 +596,7 @@ img.gender-graph {
 	text-align: left;
 	color: white;
 	margin: 0 0 0 1.5%;
+	text-transform: uppercase;
 }
 
 #workarea li.item-1 { font-size: 30px;}
@@ -628,6 +630,7 @@ img.gender-graph {
 	color: rgba(0,0,0,0.75);
 	font-size: 28px;
 	margin: 0 0 3%;
+	text-align: center;
 }
 
 #time-title img {
@@ -636,7 +639,7 @@ img.gender-graph {
 }
 
 #time-data-list {
-	margin: 0;
+	margin: 0 0 3% 0;
 	width: 100%;
 }
 
@@ -657,7 +660,7 @@ img.gender-graph {
 	padding: 0;
 	font-size: 18px;
 	width: 75px;
-	line-height: 1.5;
+	line-height: 1.2;
 	margin: 0 0 20px;
 }
 
@@ -687,7 +690,7 @@ img.gender-graph {
 }
 
 .time-text:last-child {
-	border-top: 1px solid #fff;
+	border-top: 1px solid #F9D1A1;
 	padding-top: 3%;
 }
 
@@ -696,7 +699,7 @@ p.time-text {
 	font-size: 21px;
 	display: inline-block;
 	line-height: 1.2;
-	margin: 3% 17.5% 0;
+	margin: 2% 17.5% 0;
 	width: 65%;
 	display: inline-block;
 	padding: 0;
@@ -715,11 +718,12 @@ p.time-text strong {
 	14
 */
 
-.habits {
+h3.habits {
 	font-family: 'museo_sans700';
-	font-size: 30px;
 	color: #fff;
 	margin: 0 0 5%;
+	font-size: 32px;
+	padding: 0 0 0;
 }
 
 /*
@@ -744,7 +748,7 @@ p.time-text strong {
 	16
 */
 p.disqus-text {
-	padding: 1% 15% 0 !important
+	padding: 1% 25% 0 !important
 }
 
 #disqus_thread, .disqus_iframe {
@@ -773,17 +777,26 @@ p.disqus-text {
 	line-height: 36px;
 	color: #000;
 	color: rgba(0,0,0,0.75);
-	padding: 1% 18% 0;
+	padding: 3% 22% 0;
 }
 
 /*
 	18
 */
+p.crowdfunding {
+	font-size: 24px;
+	line-height: 36px;
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	padding: 1% 30% 0;
+}
+
 .ballon {
 	background: url("../img/financiamento/grafico-financiamento-2.png") center center no-repeat;
 	width: 875px;
 	height: 430px;
 	margin: 2% auto 0;
+	position: relative;
 }
 
 .ballon p {
@@ -802,6 +815,10 @@ p.disqus-text {
 	font-size: 14px;
 	background: #66bc79;
 	padding: 6px 12px;
+	position: absolute;
+	bottom: 120px;
+	left: 50%;
+	margin-left: -71px;
 }
 
 /*
@@ -883,7 +900,7 @@ p.disqus-text {
 	20
 */
 .project-type {
-	margin: 5% auto 0;
+	margin: 3% auto 0;
 	width: 50%;
 }
 
@@ -895,7 +912,7 @@ p.disqus-text {
 }
 
 .project-type p {
-	font-family: 'museo_sans700';
+	font-family: 'museo_sans500';
 	font-size: 21px;
 	color: white;
 	text-align: left;
@@ -914,13 +931,10 @@ p.disqus-text {
 /*
 	21
 */
-.projects-missing {
-	font-size: 30px;
-	line-height: 40px;
+p.projects-missing {
 	margin: 4% auto 0;
-	width: 60%;
 	text-align: left;
-	padding: 0;
+	padding-top: 0;
 }
 
 .projects-missing strong {
@@ -939,31 +953,32 @@ p.disqus-text {
 */
 .factors {
 	width: 70%;
-	margin: 4% auto 2%;
+	margin: 3% auto 2%;
 }
 
 .factors li {
 	width: 100%;
 	display: inline-block;
+	padding-bottom: 0.3%;
 }
 
 .factors p {
-	font-family: 'museo_sans700';
+	font-family: 'museo_sans500';
 	font-size: 18px;
 	color: #000;
 	color: rgba(0,0,0,0.75);
 	background: white;
 	float: left;
-	padding: 0 0 0 5px;
-	text-align: left
+	padding: 5px 0px 5px 10px;
+	text-align: left;
 }
 
 .factors span {
-	font-family: 'museo_sans700';
-	font-size: 22px;
- 	color: white;
+	font-family: 'museo_sans500';
+	font-size: 26px;
+	color: white;
 	float: left;
-	margin: 0 0 0 5px;
+	margin: 1px 2px 0 5px;
 	line-height: 36px;
 }
 
@@ -989,6 +1004,10 @@ p.disqus-text {
 /*
 	24
 */
+p.disqus-text-2 {
+	padding: 1% 18% 0 !important
+}
+
 
 /*********************************** Bloco 3 **********************************************************************/
 .network {
@@ -1005,7 +1024,7 @@ p.disqus-text {
 	line-height: 36px;
 	color: #000;
 	color: rgba(0,0,0,0.75);
-	padding: 1% 18% 0;
+	padding: 3% 18% 0;
 }
 
 .network > div {
@@ -1040,19 +1059,21 @@ p.disqus-text {
 	27
 */
 .network-side-text {
-	width: 50%;
+	width: 35%;
 	float: right;
 	text-align: left;
+	margin: 0 10%;
 }
 
 .network-side-text p {
 	padding: 0;
 	margin: 3% 0 0;
 	font-size: 18px;
+	line-height: 28px;
 }
 
 .first-cirle {
-	margin: 140px 0;
+	margin: 150px 0 0 100px;
 }
 
 /*
@@ -1076,20 +1097,32 @@ p.disqus-text {
 /*
 	31
 */
+div.missing-div {
+	width: 63%;
+	margin: 0 20%;
+}
+
 .missing {
-	font-family: 'museo_sans700';
+	font-family: 'museo_sans500';
 	font-size: 60px;
-	line-height: 80px;
+	line-height: 70px;
 }
 
 /*
 	32
 */
-.other-way {
-	font-family: 'museo_sans700';
-	font-size: 38px;
-	line-height: 45px;
+
+div.other-way-div{
+	width: 70%;
+	margin: 0 15%;
+}
+
+h3.other-way {
+	font-family: 'museo_sans500';
+	font-size: 40px;
+	line-height: 46px;
 	margin: 0 8%;
+	padding: 2% 0 0;
 }
 
 /*
@@ -1121,7 +1154,7 @@ p.side-graphic {
 }
 
 .popular p {
-	font-size: 14px;
+	font-size: 18px;
 	padding: 0;
 	line-height: 22px;
 	display: inline-block;
@@ -1136,13 +1169,13 @@ p.side-graphic {
 	display: inline-block;
 	vertical-align: middle;
 	width: 12%;
-	margin: 0px 3%;
+	margin: -18px 3% 0;
 	line-height: 64px;
 	text-align: right;
 }
 
 .popular span.special {
-	margin-top: -20px;
+	margin-top: 0;
 }
 
 .popular .item-1 { background: RGBA(225, 77, 46, 1); }
@@ -1167,8 +1200,8 @@ p.government {
 	font-size: 24px;
 	padding: 0;
 	line-height: 30px;
-	width: 40%;
-	margin: 12% 30% 0;
+	width: 30%;
+	margin: 12% 34% 0;
 }
 
 .government strong {
@@ -1198,6 +1231,10 @@ p.text-ballon {
 	background: #F09B7C;
 }
 
+p.disqus-text-3 {
+	padding: 1% 23% 0 !important;
+}
+
 /*********************************** Bloco 4 **********************************************************************/
 /*
 	38
@@ -1211,12 +1248,16 @@ p.text-ballon {
 	padding: 2% 0 0;
 }
 
+.intro-title {
+	margin-bottom: 3%;
+}
+
 .creator p {
 	font-size: 24px;
 	line-height: 36px;
 	color: #000;
 	color: rgba(0,0,0,0.75);
-	padding-top: 1%;
+	padding-top: 0;
 }
 
 .intro-text {
@@ -1227,14 +1268,14 @@ p.text-ballon {
 	39
 */
 .age {
-	width: 50%;
-	margin: 6% 25% 0;
+	width: 60%;
+	margin: 4% 21% 0;
 }
 
 .age li {
 	display: inline-block;
 	position: relative;
-	height: 40px;
+	height: 50px;
 	width: 100%;
 	margin: 0 0 4px;
 	border-bottom: 1px solid white;
@@ -1245,21 +1286,21 @@ p.text-ballon {
 	top: 0;
 	left: 0;
 	background: white;
-	height: 40px;
+	height: 50px;
 }
 
 .age p {
 	position: relative;
-	font-size: 20px;
+	font-size: 22px;
 	line-height: 45px;
 	text-align: left;
-	padding: 0 0 0 5px;
+	padding: 0 0 0 10px;
 }
 
 .age span {
 	position: absolute;
 	right: 5px;
-	top: 7px;
+	top: 10px;
 	font-size: 30px;
 }
 
@@ -1282,7 +1323,7 @@ p.text-ballon {
 	width: 25%;
 	display: inline-block;
 	vertical-align: top;
-	margin: 3% 0 0;
+	margin: 3% -2% 0;
 }
 
 .area li {
@@ -1296,11 +1337,10 @@ p.text-ballon {
 	vertical-align: middle;
 	text-align: right;
 	color: white;
-	font-size: 26px;
-	font-family: 'museo_sans700';
+	font-size: 30px;
+	font-family: 'museo_sans500';
 	width: 20%;
 	line-height: 42px;
-	margin: -20px 0 0;
 }
 
 .area li:first-child span {
@@ -1310,8 +1350,8 @@ p.text-ballon {
 .area p {
 	display: inline-block;
 	text-transform: uppercase;
-	font-family: 'museo_sans700';
-	font-size: 17px;
+	font-family: 'museo_sans500';
+	font-size: 20px;
 	width: 74%;
 	margin: 0 0 0 4%;
 	text-align: left;
@@ -1345,20 +1385,20 @@ p.text-ballon {
 
 .job p {
 	position: relative;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 45px;
 	text-align: left;
 	padding: 0 0 0 15px;
-	font-family: 'museo_sans700';
+	font-family: 'museo_sans500';
 	color: white;
 }
 
 .job span {
 	position: absolute;
 	right: 5px;
-	top: 12px;
-	font-size: 20px;
-	font-family: 'museo_sans700';
+	top: 9px;
+	font-size: 25px;
+	font-family: 'museo_sans500';
 }
 
 .job .item-1 { width: 100%; }
@@ -1406,7 +1446,7 @@ p.creator-subtitle {
 	font-family: 'museo_sans700';
 	font-size: 38px;
 	color: white;
-	margin: 0 0 2%;
+	margin: 0 0 5%;
 }
 
 .phases-block {
@@ -1424,8 +1464,8 @@ p.creator-subtitle {
 
 .phases-block p {
 	text-align: left;
-	font-family: 'museo_sans700';
-	font-size: 17px;
+	font-family: 'museo_sans500';
+	font-size: 20px;
 	color: white;
 	padding: 0 0 0 10px;
 }
@@ -1434,7 +1474,7 @@ p.creator-subtitle {
 	43
 */
 .why-succeed {
-	margin: 4% 15% 0;
+	margin: 3% 15% 0;
 	width: 70%;
 	display: inline-block;
 }
@@ -1443,19 +1483,18 @@ p.creator-subtitle {
 	display: inline-block;
 	position: relative;
 	height: 40px;
-	width: 100%;
-	margin: 0 0 4px;
-	background: #52a0b1;
+	width: 85%;
+	margin: 0 0 1px;
 }
 
 .why-succeed p {
 	display: inline-block;
 	position: relative;
-	font-size: 19px;
+	font-size: 22px;
 	line-height: 45px;
 	text-align: left;
 	padding: 0 0 0 15px;
-	font-family: 'museo_sans700';
+	font-family: 'museo_sans500';
 	color: white;
 	float: left;
 }
@@ -1486,7 +1525,7 @@ p.creator-subtitle {
 }
 
 .why-not-succeed {
-	margin: 4% 15% 0;
+	margin: 3% 15% 0;
 	width: 70%;
 	display: inline-block;
 }
@@ -1495,19 +1534,18 @@ p.creator-subtitle {
 	display: inline-block;
 	position: relative;
 	height: 40px;
-	width: 100%;
-	margin: 0 0 4px;
-	background: #52a0b1;
+	width: 85%;
+	margin: 0 0 1px;
 }
 
 .why-not-succeed p {
 	display: inline-block;
 	position: relative;
-	font-size: 19px;
+	font-size: 22px;
 	line-height: 45px;
 	text-align: left;
 	padding: 0 0 0 15px;
-	font-family: 'museo_sans700';
+	font-family: 'museo_sans500';
 	color: white;
 	float: left;
 }
@@ -1556,9 +1594,11 @@ p.creator-subtitle {
 */
 .success-data {
 	font-size: 24px;
-	width: 30%;
+	width: 32%;
 	display: inline-block;
 	margin: 5% 0 0;
+	padding: 0 2%;
+	line-height: 30px;
 }
 
 .success-data strong {
@@ -1593,8 +1633,8 @@ p.creator-subtitle {
 }
 
 .final h3 {
-	font-size: 30px;
-	font-family: 'museo_sans700';
+	font-size: 34px;
+	font-family: 'museo_sans500';
 	color: #78C253;
 }
 
@@ -1612,9 +1652,18 @@ p.final-text {
 	color: #000;
 	color: rgba(0,0,0,0.90);
 	text-align: left;
-	margin: 2% 13% 1%;
+	margin: 2% 22% 1%;
+	width: 56%;
+}
+
+p.share-text {
+	font-size: 20px;
+	line-height: 34px;
+	color: #000;
+	color: rgba(0,0,0,0.90);
+	margin: 0% 22% 4%;
 	text-align: left;
-	width: 74%;
+	width: 61%;
 }
 
 .green-button {
