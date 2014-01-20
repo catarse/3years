@@ -26,3 +26,5 @@ var RandomTexts = window.RandomTexts = function(root, textsFile){
 };
 
 var whats = window.whats = new RandomTexts('#whats-crowdfunding', 'slide_18_texts.json');
+var government = window.government = new RandomTexts('#government', 'slide_36_texts.json');
+var advices = window.advices = new RandomTexts('#advices', 'slide_49_texts.json');

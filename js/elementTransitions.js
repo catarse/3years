@@ -8,7 +8,7 @@ var PageTransitions = window.PageTransitions = (function($) {
     'OAnimation': 'oAnimationEnd',
     'msAnimation': 'MSAnimationEnd',
     'animation': 'animationend'
-  }
+  };
 
   function getTransitionPrefix() {
     var b = document.body || document.documentElement;
@@ -49,7 +49,6 @@ var PageTransitions = window.PageTransitions = (function($) {
 
   function nextPage(block, direction, outClass, inClass, callback) {
     block = $(block);
-    console.log(outClass);
     inClass = formatClass(inClass);
     outClass = formatClass(outClass);
     var $pages = block.children('.et-page'),
@@ -94,6 +93,7 @@ var PageTransitions = window.PageTransitions = (function($) {
 
   function onEndAnimation($outpage, $inpage, block) {
     resetPage($outpage, $inpage);
+    $inpage.trigger("slideLoad");
     block.data('isAnimating', false);
   }
 
@@ -103,8 +103,13 @@ var PageTransitions = window.PageTransitions = (function($) {
   }
   
   function goTo(index){
+    this.previousIndex = this.currentIndex();
     $('.et-wrapper .et-page').removeClass('et-page-current');
-    $('.et-wrapper .et-page:nth-child(' + index + ')').addClass('et-page-current');
+    $('.et-wrapper .et-page:nth-child(' + index + ')').addClass('et-page-current').trigger("slideLoad");
+  }
+
+  function currentIndex(){
+    return ( $('.et-page').index($('.et-page-current')) + 1);
   }
 
   function formatClass(str) {
@@ -119,12 +124,23 @@ var PageTransitions = window.PageTransitions = (function($) {
     init : init,
     nextPage: nextPage,
     animate: animate,
-    goTo: goTo
+    goTo: goTo,
+    currentIndex: currentIndex
   };
 })(jQuery);
 
 jQuery(function($) {
+  var $menuDiv = $(".menu");
+  var $menu = $("#menu-link");
   PageTransitions.init();
+  $(".et-page:not(#menu-page)").bind("slideLoad", function(){
+    $menuDiv.removeClass('close');
+    $menu.prop('href', '#/52');
+  });
+  $("#menu-page").bind("slideLoad", function(){
+    $menuDiv.addClass('close');
+    $menu.prop('href', '#/' + PageTransitions.previousIndex);
+  });
   $(window).on('hashchange', function(e){
     var index = window.location.hash.split('/')[1];
     if(index){

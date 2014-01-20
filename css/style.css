@@ -247,7 +247,7 @@ p.subtitle {
 	line-height: 29px;
 	color: #000;
 	color: rgba(0,0,0,0.75);
-	padding: 1% 23%;
+	padding: 1% 22%;
 }
 
 p.big-subtitle {
@@ -816,7 +816,7 @@ p.crowdfunding {
 	background: #66bc79;
 	padding: 6px 12px;
 	position: absolute;
-	bottom: 120px;
+	bottom: 110px;
 	left: 50%;
 	margin-left: -71px;
 }
@@ -982,7 +982,7 @@ p.projects-missing {
 	line-height: 36px;
 }
 
-.factors .item-1 { width: 95%; }
+.factors .item-1 { width: 93%; }
 .factors .item-2 { width: 80%; }
 .factors .item-3 { width: 78%; }
 .factors .item-4 { width: 54%; }
@@ -1767,6 +1767,7 @@ hr {
 
 .social li {
 	display: inline-block;
+	margin: -7px 22px 0;
 }
 
 /*
