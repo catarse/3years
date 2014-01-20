@@ -120,6 +120,16 @@ h1.presentation-frame small {
 	margin: 10px 0 0;
 }
 
+p.presentation-first-text {
+	font-size: 20px;
+	line-height: 28px;
+	color: #000;
+	color: rgba(0,0,0,0.75);
+	padding: 0 28%;
+	text-align: left;
+	margin: 0 0 2%;
+}
+
 p.presentation-text {
 	font-size: 20px;
 	line-height: 34px;
