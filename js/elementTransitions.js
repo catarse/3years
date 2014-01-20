@@ -155,4 +155,5 @@ jQuery(function($) {
   });
   $(window).trigger('hashchange');
   $(".has-disqus iframe").hide();
+
 });
