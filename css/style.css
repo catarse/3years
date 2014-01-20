@@ -125,7 +125,7 @@ p.presentation-first-text {
 	line-height: 28px;
 	color: #000;
 	color: rgba(0,0,0,0.75);
-	padding: 0 24%;
+	padding: 0 23%;
 	text-align: left;
 	margin: 0 0 2%;
 }
@@ -736,6 +736,10 @@ h3.habits {
 	padding: 0 0 0;
 }
 
+.habits-image {
+	width: 80%;
+}
+
 /*
 	15
 */
@@ -758,7 +762,7 @@ h3.habits {
 	16
 */
 p.disqus-text {
-	padding: 1% 25% 0 !important
+	padding: 1% 0 0 !important
 }
 
 #disqus_thread, .disqus_iframe {
@@ -1014,9 +1018,6 @@ p.projects-missing {
 /*
 	24
 */
-p.disqus-text-2 {
-	padding: 1% 18% 0 !important
-}
 
 
 /*********************************** Bloco 3 **********************************************************************/
@@ -1068,11 +1069,16 @@ p.disqus-text-2 {
 /*
 	27
 */
+.network-side-image {
+	width: 49%;
+	float: left;
+}
+
 .network-side-text {
-	width: 35%;
+	width: 40%;
 	float: right;
 	text-align: left;
-	margin: 0 10%;
+	margin: 0 0 0 10%;
 }
 
 .network-side-text p {
@@ -1239,10 +1245,6 @@ p.text-ballon {
 
 .network-ballon a {
 	background: #F09B7C;
-}
-
-p.disqus-text-3 {
-	padding: 1% 23% 0 !important;
 }
 
 /*********************************** Bloco 4 **********************************************************************/
@@ -1442,7 +1444,7 @@ p.creator-subtitle {
 }
 
 .phases {
-	width: 70%;
+	width: 80%;
 	margin: 4% 15% 0;
 }
 
@@ -1583,8 +1585,8 @@ p.creator-subtitle {
 	45
 */
 .success-factors-box {
-	width: 70%;
-	margin: 4% 15% 0;
+	width: 80%;
+	margin: 4% auto 0;
 }
 
 .success-factors {
@@ -1777,7 +1779,8 @@ hr {
 
 .social li {
 	display: inline-block;
-	margin: -7px 22px 0;
+	margin: -7px 0 0;
+	width: 32%;
 }
 
 /*
