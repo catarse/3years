@@ -1341,12 +1341,12 @@ p.text-ballon {
 .area li {
 	display: inline-block;
 	width: 100%;
-	margin: 0 0 5%;
+	margin: 0 0 10%;
 }
 
 .area span {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	text-align: right;
 	color: white;
 	font-size: 30px;
@@ -1356,7 +1356,7 @@ p.text-ballon {
 }
 
 .area li:first-child span {
-	margin: 0;
+	margin: -11px 0 0;
 }
 
 .area p {
@@ -1629,7 +1629,8 @@ p.creator-subtitle {
 }
 
 .creator-ballon p{
-	padding-top: 7%;
+	padding-top: 8%;
+	line-height: 30px;
 }
 
 .creator-ballon a {
@@ -1937,4 +1938,20 @@ a.arrow-right:hover {
 
 .close #menu-link {
 	background: url(../img/icon-close.png) no-repeat;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+	.share {
+		display: none;
+	}
+
+	.stamp {
+		display: none;
+	}
+
+	.menu {
+		display: none;
+	}
+
 }
