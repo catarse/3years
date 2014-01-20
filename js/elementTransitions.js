@@ -133,6 +133,12 @@ jQuery(function($) {
   var $menuDiv = $(".menu");
   var $menu = $("#menu-link");
   PageTransitions.init();
+  $(".et-page:not(.has-disqus)").bind("slideLoad", function(){
+    $(".has-disqus iframe").hide();
+  });
+  $(".et-page.has-disqus").bind("slideLoad", function(){
+    $(".has-disqus iframe").show();
+  });
   $(".et-page:not(#menu-page)").bind("slideLoad", function(){
     $menuDiv.removeClass('close');
     $menu.prop('href', '#/52');
@@ -148,4 +154,6 @@ jQuery(function($) {
     }
   });
   $(window).trigger('hashchange');
+  $(".has-disqus iframe").hide();
+
 });
