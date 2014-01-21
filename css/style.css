@@ -765,6 +765,10 @@ p.disqus-text {
 	padding: 1% 0 0 !important
 }
 
+.disqus_iframe {
+  display: block !important;
+}
+
 #disqus_thread, .disqus_iframe {
 	width: 60%;
 	background: #FFF;
