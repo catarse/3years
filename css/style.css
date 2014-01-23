@@ -90,7 +90,14 @@ html, body {
 }
 
 .initial {
-	background: radial-gradient(circle, #ffffff, #eeeeee)
+	background: #ffffff;
+	background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #eeeeee 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#eeeeee));
+	background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#eeeeee 100%);
+	background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#eeeeee 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#eeeeee 100%);
+	background: radial-gradient(ellipse at center,  #ffffff 0%,#eeeeee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=1 );
 }
 
 
@@ -462,7 +469,16 @@ img.gender-graph {
 }
 
 
-
+.profile-bg {
+	background: #f8ba77;
+	background: -moz-radial-gradient(center, ellipse cover,  #f8ba77 0%, #f38c34 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#f8ba77), color-stop(100%,#f38c34));
+	background: -webkit-radial-gradient(center, ellipse cover,  #f8ba77 0%,#f38c34 100%);
+	background: -o-radial-gradient(center, ellipse cover,  #f8ba77 0%,#f38c34 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  #f8ba77 0%,#f38c34 100%);
+	background: radial-gradient(ellipse at center,  #f8ba77 0%,#f38c34 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ba77', endColorstr='#f38c34',GradientType=1 );
+}
 
 /*
 	9
@@ -751,10 +767,11 @@ h3.habits {
 
 #information-title {
 	display: inline-block;
-	padding: 0 0 3% 2%;
+	padding: 0 0 3%;
 	color: #000;
 	color: rgba(0,0,0,0.75);
 	font-size: 28px;
+	width: 100%;
 }
 
 
@@ -778,7 +795,14 @@ p.disqus-text {
 
 /*********************************** Bloco 2 **********************************************************************/
 .financing {
-	background: radial-gradient(circle, #99d8a9, #64c47d)
+	background: #99d8a9;
+	background: -moz-radial-gradient(center, ellipse cover,  #99d8a9 0%, #64c47d 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#99d8a9), color-stop(100%,#64c47d));
+	background: -webkit-radial-gradient(center, ellipse cover,  #99d8a9 0%,#64c47d 100%);
+	background: -o-radial-gradient(center, ellipse cover,  #99d8a9 0%,#64c47d 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  #99d8a9 0%,#64c47d 100%);
+	background: radial-gradient(ellipse at center,  #99d8a9 0%,#64c47d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99d8a9', endColorstr='#64c47d',GradientType=1 );
 }
 
 .financing h3 {
@@ -1026,7 +1050,14 @@ p.projects-missing {
 
 /*********************************** Bloco 3 **********************************************************************/
 .network {
-	background: radial-gradient(circle, #f19e8a, #ea6c4c);
+	background: #f19e8a;
+	background: -moz-radial-gradient(center, ellipse cover,  #f19e8a 0%, #ea6c4c 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#f19e8a), color-stop(100%,#ea6c4c));
+	background: -webkit-radial-gradient(center, ellipse cover,  #f19e8a 0%,#ea6c4c 100%);
+	background: -o-radial-gradient(center, ellipse cover,  #f19e8a 0%,#ea6c4c 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  #f19e8a 0%,#ea6c4c 100%);
+	background: radial-gradient(ellipse at center,  #f19e8a 0%,#ea6c4c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f19e8a', endColorstr='#ea6c4c',GradientType=1 );
 }
 
 .network h3 {
@@ -1256,7 +1287,14 @@ p.text-ballon {
 	38
 */
 .creator {
-	background: radial-gradient(circle, #a0d1da, #6db9c7);
+	background: #a0d1da;
+	background: -moz-radial-gradient(center, ellipse cover,  #a0d1da 0%, #6db9c7 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#a0d1da), color-stop(100%,#6db9c7));
+	background: -webkit-radial-gradient(center, ellipse cover,  #a0d1da 0%,#6db9c7 100%);
+	background: -o-radial-gradient(center, ellipse cover,  #a0d1da 0%,#6db9c7 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  #a0d1da 0%,#6db9c7 100%);
+	background: radial-gradient(ellipse at center,  #a0d1da 0%,#6db9c7 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d1da', endColorstr='#6db9c7',GradientType=1 );
 }
 
 .creator h3 {
@@ -1646,7 +1684,14 @@ p.creator-subtitle {
 	50
 */
 .final {
-	background: radial-gradient(circle, #ffffff, #eeeeee)
+	background: #ffffff;
+	background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #eeeeee 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#eeeeee));
+	background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#eeeeee 100%);
+	background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#eeeeee 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#eeeeee 100%);
+	background: radial-gradient(ellipse at center,  #ffffff 0%,#eeeeee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=1 );
 }
 
 .final h3 {
