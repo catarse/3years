@@ -2,7 +2,13 @@ var RandomTexts = window.RandomTexts = function(root, textsFile){
   var that = this;
 
   function changeText(){
-    that.text.html(that.texts[Math.floor(Math.random()*that.texts.length)]);
+    var newText = that.texts[Math.floor(Math.random()*that.texts.length)];
+    var shortText = newText;
+    if(newText.length > 280){
+      shortText = newText.substring(0, 280) + '...';
+    }
+    that.text.html(shortText);
+    that.text.prop('title', newText);
   }
   that.changeText = changeText;
 
